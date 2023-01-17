@@ -1,27 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@font-face {
-  font-family: "Luxia-Display";
-  src: url(/assets/fonts/LUXIADISPLAY.OTF) format("opentype");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Luxia-Regular";
-  src: url(/assets/fonts/LUXIAREGULAR.OTF) format("opentype");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Quasimoda-Light";
-  src: url(/assets/fonts/QUASIMODA-LIGHT.OTF) format("opentype");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Quasimoda-Regular";
-  src: url(/assets/fonts/QUASIMODA-REGULAR.TTF) format("truetype");
-  font-display: swap;
-}
+@import url(/src/assets/fonts/webfontkit/stylesheet.css);
 
 * {
   margin: 0;

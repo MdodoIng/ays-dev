@@ -6,17 +6,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily : {
-        'luxiaDisplay': 'Luxia-Display',
-         'luxiaRegular': 'Luxia-Regular',
-         'quasimodaLight': 'Quasimoda-Light',
-         'quasimodaRegular': 'Quasimoda-Regular',
-
+      fontFamily: {
+        luxiaDisplay: ["Luxia-Display"],
+        luxiaRegular: ["Luxia-Regular"],
+        quasimodaLight: ["Quasimoda-Light"],
+        quasimodaRegular: ["Quasimoda-Regular"],
       },
-      colors : {
-      'primary': '#06231A',
-      }
+      colors: {
+        primary: "#06231A",
+      },
     },
   },
   plugins: [],
-}
+};
