@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Luxia-Display";
+  src: url(/assets/fonts/LUXIADISPLAY.OTF) format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Luxia-Regular";
+  src: url(/assets/fonts/LUXIAREGULAR.OTF) format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Quasimoda-Light";
+  src: url(/assets/fonts/QUASIMODA-LIGHT.OTF) format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Quasimoda-Regular";
+  src: url(/assets/fonts/QUASIMODA-REGULAR.TTF) format("truetype");
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quasimoda-Light";
+}
+h1 {
+  @apply text-5xl;
+}
+h2 {
+  @apply text-3xl;
+}
+h3 {
+  @apply text-xl;
+}
