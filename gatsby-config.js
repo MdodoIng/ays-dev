@@ -3,10 +3,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `./`,
+    title: `AYS`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-postcss", "gatsby-plugin-google-gtag", "gatsby-plugin-image", {
+  plugins: ["gatsby-plugin-postcss", "gatsby-plugin-image", {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"
@@ -18,5 +18,8 @@ module.exports = {
       "path": "./src/images/"
     },
     __key: "images"
-  }]
+  }],
+  flags : {
+    DEV_SSR: true
+  }
 };
