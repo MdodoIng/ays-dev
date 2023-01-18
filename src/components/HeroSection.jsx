@@ -3,10 +3,7 @@ import React from "react";
 import modern_design_antic_tech from "../assets/images/element/modern design antic tech.svg";
 import EnquireBtn from "../ui/EnquireBtn";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-fade";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+
 import { EffectFade, Pagination } from "swiper";
 import { Link } from "gatsby";
 import { FBinRoundIcon, GoogleIcon, InstagramIcon } from "../lib/icon";
@@ -14,7 +11,7 @@ import { FBinRoundIcon, GoogleIcon, InstagramIcon } from "../lib/icon";
 const HeroSection = () => {
   return (
     <div className="hero_section bg-white flex flex-row justify-between items-center relative z-20">
-      <span className="absolute h-full w-[20%] bg-black top-0 right-0 -z-10 bg-gradient-to-tr to-[#1B5442] from-[#002419]"/>
+      <span className="absolute h-full w-[20%] bg-black top-0 right-0 -z-10 bg-gradient-to-tr to-[#1B5442] from-[#002419]" />
       <div className="grid place-content-center place-items-center w-[40%] px-32">
         <MainImage
           src={modern_design_antic_tech}
