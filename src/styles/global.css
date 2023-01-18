@@ -2,10 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 @import url(/src/assets/fonts/webfontkit/stylesheet.css);
-@import url(./components/hero_section.css);
 
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-
 
 * {
   margin: 0;
@@ -21,4 +19,15 @@ h2 {
 }
 h3 {
   @apply text-xl;
+}
+
+.hero_section {
+  height: calc(100vh - 165px);
+}
+@media (min-width: 1024px) {
+  @media (min-height: 1117px) {
+    .hero_section {
+      height: 727px;
+    }
+  }
 }
