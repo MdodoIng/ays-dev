@@ -11,6 +11,7 @@ module.exports = {
         luxiaRegular: ["Luxia-Regular"],
         quasimodaLight: ["Quasimoda-Light"],
         quasimodaRegular: ["Quasimoda-Regular"],
+        inter: ["Inter, sans-serif"],
       },
       colors: {
         primary: "#06231A",

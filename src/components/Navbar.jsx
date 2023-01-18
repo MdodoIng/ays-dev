@@ -26,29 +26,19 @@ const navLinks = [
 ];
 
 const Navbar = () => (
-  <nav className="flex justify-between items-center w-full overflow-hidden h-[165px]">
-    <div>
-      <img src={logo} alt="logo" className="object-contain h-[76px]" />
+  <nav className="flex justify-between items-center w-full overflow-hidden h-[165px] bg-primary px-28">
+    <div className="">
+      <img src={logo} alt="logo" className="object-contain h-[76px] w-full" />
     </div>
-    <div className="font-quasimodaRegular">
+    <div className="font-quasimodaRegular flex gap-11 items-center justify-center">
       {navLinks.map((item) => (
-        <Link>
-          <p className="font-quasimodaLight font-bold">{item.title}</p>
+        <Link to="">
+          <p className="font-quasimodaRegular tracking-[2%] shrink-0 text-white text-2xl">
+            {item.title}
+          </p>
         </Link>
       ))}
     </div>
-    <h1 className="font-luxiaDisplay">
-      koi
-    </h1>
-    <h1 className="font-luxiaRegular">
-      koi
-    </h1>
-    <h1 className="font-quasimodaLight">
-      koi
-    </h1>
-    <h1 className="font-quasimodaRegular">
-      koi
-    </h1>
   </nav>
 );
 
