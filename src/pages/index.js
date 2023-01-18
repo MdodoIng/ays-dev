@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Footer, Navbar, HeroSection, OurLegacy, AuraDiamond, GoldInvestment, PromiseYourPurity, Testimonial } from "../components";
+import { Footer, Navbar, HeroSection, OurLegacy, AuraDiamond, GoldInvestment, PromiseYourPurity, Testimonial, ContactUs } from "../components";
 
 const IndexPage = () => {
   return (
@@ -11,6 +11,7 @@ const IndexPage = () => {
       <GoldInvestment />
       <PromiseYourPurity />
       <Testimonial />
+      <ContactUs/>
       <Footer />
     </main>
   );

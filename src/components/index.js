@@ -6,3 +6,4 @@ export { default as AuraDiamond } from "./AuraDiamond";
 export { default as GoldInvestment } from "./GoldInvestment";
 export { default as PromiseYourPurity } from "./PromiseYourPurity";
 export { default as Testimonial } from "./Testimonial";
+export { default as ContactUs } from "./ContactUs";

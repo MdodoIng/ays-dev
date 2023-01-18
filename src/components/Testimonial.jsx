@@ -1,6 +1,6 @@
 import { MainImage } from "gatsby-plugin-image";
 import React from "react";
-import { Pagination } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Apostrophe from "../assets/icons/apostrophe.svg";
 import user1 from "../assets/images/element/testimonialsUser1.png";
@@ -38,7 +38,8 @@ const Testimonial = () => {
           pagination={{
             dynamicBullets: true,
           }}
-          modules={[Pagination]}
+          modules={[ Autoplay]}
+          autoplay
           className="flex items-center justify-center w-full"
         >
           {data.map((item) => (
