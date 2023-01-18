@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 @import url(/src/assets/fonts/webfontkit/stylesheet.css);
+@import url(./components/hero_section.css);
+
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 
 * {
   margin: 0;

@@ -1,10 +1,16 @@
 import * as React from "react";
-import{ Footer, Navbar} from "../components"
+import { Footer, Navbar, HeroSection, OurLegacy, AuraDiamond, GoldInvestment, PromiseYourPurity, Testimonial } from "../components";
 
 const IndexPage = () => {
   return (
     <main>
       <Navbar />
+      <HeroSection />
+      <OurLegacy />
+      <AuraDiamond />
+      <GoldInvestment />
+      <PromiseYourPurity />
+      <Testimonial />
       <Footer />
     </main>
   );
