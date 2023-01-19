@@ -33,26 +33,26 @@ const Footer = () => {
     <div className="xl:px-28 px-24 bg-primary pt-24 pb-8">
       <div className="flex w-full items-center justify-center h-full max-w-[1440px] mx-auto">
 
-      <div className="flex justify-between w-full">
+      <div className="flex justify-between w-full items-start">
         <div className="flex items-start justify-center flex-col gap-6">
           <Link>
             <img
               src={logo}
               alt="logo"
               loading="lazy"
-              className="object-contain h-[76px] w-full"
+              className="object-contain xl:h-[60px] h-12 w-full"
               />
           </Link>
-          <p className="font-quasimodaLight text-[22px] leading-[30px] text-white font-light">
+          <p className="font-quasimodaLight xl:text-[22px] text-xl leading-[30px] text-white font-light">
             Shop our entire lineup of fine faves in <br />
             store, get styled and join the Fine Crew.
           </p>
         </div>
-        <div className="grid gap-12">
-          <h2 className="font-quasimodaLight text-white text-3xl font-light">
+        <div className="grid xl:gap-12 gap-10">
+          <h2 className="font-quasimodaLight text-white xl:text-3xl text-2xl font-light">
             Contact us
           </h2>
-          <div className="grid place-items-start gap-7">
+          <div className="grid place-items-start xl:gap-7 gap-6">
             <Contact_us
               title="Kondotty, Malappuram, Kerala."
               icon={<LocationIcon className="" />}
@@ -67,11 +67,11 @@ const Footer = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-12">
+        <div className="flex flex-col xl:gap-12 gap-10">
           <h2 className="font-quasimodaLight text-white text-3xl font-light h-min">
             Follow us on
           </h2>
-          <div className="flex gap-[15px] h-min">
+          <div className="flex xl:gap-[15px] gap-3 h-min">
             <Follow_us icon={<FBIcon />} lin="" />
             <Follow_us icon={<TwitterIcon />} lin="" />
             <Follow_us icon={<LinkedInIcon />} lin="" />
