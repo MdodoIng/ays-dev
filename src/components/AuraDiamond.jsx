@@ -6,7 +6,7 @@ import aura_diamondPattern from "../assets/images/element/aura_diamondPattern.sv
 
 const AuraDiamond = () => {
   return (
-    <div className="flex items-center justify-center py-[105px] relative z-30 bg-[#FFF7F1] px-28">
+    <div className="flex items-center justify-center py-[105px] relative z-30 bg-[#FFF7F1] xl:px-28 px-24">
       <MainImage
         src={aura_diamondPattern}
         loading="lazy"
@@ -24,7 +24,7 @@ const AuraDiamond = () => {
           alt="35years"
           width={656}
           height={593}
-          className="object-contain w-full h-full max-w-[656px] max-h-[593px]"
+          className="object-contain w-full h-full xl:max-w-[656px] xl:max-h-[593px]"
           />
       </div>
       <div className="w-[50%] pl-20">
@@ -34,9 +34,9 @@ const AuraDiamond = () => {
           alt="35years"
           width={295.48}
           height={169.05}
-          className="object-contain w-full h-full max-w-[295.48px] max-h-[169.05px]"
+          className="object-contain w-full h-full xl:max-w-[295.48px] max-w-[200px] max-h-[169.05px]"
           />
-        <p className="text-[22px] leading-[162%] tracking-[-2%] text-black mt-6">
+        <p className="xl:text-[22px] text-xl leading-[162%] tracking-[-2%] text-black mt-6">
           Unleash your regal radiance and make a statement at your upcoming
           celebrations by adorning yourself with the mesmerizing sparkle of AYS
           JEWEL'S Aura Diamond Collection. These diamonds will elevate your

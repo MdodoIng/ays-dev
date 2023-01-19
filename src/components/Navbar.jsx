@@ -26,14 +26,14 @@ const navLinks = [
 ];
 
 const Navbar = () => (
-  <nav className="flex justify-between items-center w-full h-[165px] relative px-28 max-w-[1440px] mx-auto after:content-[' '] after:absolute after:w-[1000000px] after:h-full after:top-0 after:-left-[500%] after:bg-primary after:-z-10">
+  <nav className="flex justify-between items-center w-full xl:h-[165px] h-[106px] relative xl:px-28 px-24 max-w-[1440px] mx-auto after:content-[' '] after:absolute after:w-[1000000px] after:h-full after:top-0 after:-left-[500%] after:bg-primary after:-z-10">
     <div className="">
-      <img src={logo} alt="logo" className="object-contain h-[76px] w-full" />
+      <img src={logo} alt="logo" className="object-contain xl:h-[76px] h-[50px] w-full" />
     </div>
-    <div className="font-quasimodaRegular flex gap-11 items-center justify-center">
+    <div className="font-quasimodaRegular flex xl:gap-11 gap-7 items-center justify-center">
       {navLinks.map((item) => (
         <Link to="">
-          <p className="font-quasimodaRegular tracking-[2%] shrink-0 text-white text-2xl">
+          <p className="font-quasimodaRegular tracking-[2%] shrink-0 text-white xl:text-2xl text-base">
             {item.title}
           </p>
         </Link>

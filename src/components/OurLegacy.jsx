@@ -6,7 +6,7 @@ import yearsOf35Pattern from "../assets/images/element/35YearsPattern.svg";
 
 const OurLegacy = () => {
   return (
-    <div className="flex w-full items-center justify-center h-full bg-gradient-to-tr from-[#1B5442] to-[#01261A] pt-24 pb-36 px-28 relative z-30">
+    <div className="flex w-full items-center justify-center h-full bg-gradient-to-tr from-[#1B5442] to-[#01261A] xl:pt-24 pt-20 xl:pb-36 pb-28 xl:px-28 px-24  relative z-30">
       <MainImage
         src={yearsOf35Pattern}
         loading="lazy"
@@ -25,21 +25,21 @@ const OurLegacy = () => {
       />
       <span className="h-[15px] w-full absolute left-0 bottom-0 bg-gradient-to-r from-[#A37832] to-[#CEAB61]" />
       <div className="flex w-full items-center justify-center h-full max-w-[1440px] mx-auto">
-        <div className="w-[40%] flex items-center justify-end h-full shrink-0 px-28">
+        <div className="w-[40%] flex items-center justify-end h-full shrink-0 xl:pr-28 pr-20">
           <MainImage
             src={yearsOf35}
             loading="lazy"
             alt="35years"
             width={307}
             height={282}
-            className="object-contain max-w-[307px] w-full h-full"
+            className="object-contain max-w-[307px] w-full h-full shrink-0"
           />
         </div>
         <div className="w-full">
-          <h1 className="font-luxiaDisplay text-7xl text-white leading-[167%] tracking-[-2%]">
+          <h1 className="font-luxiaDisplay xl:text-7xl text-6xl text-white leading-[167%] tracking-[-2%]">
             Our Legacy
           </h1>
-          <p className="text-[22px] text-white leading-[162%] tracking-[-2%]">
+          <p className="xl:text-[22px] text-xl text-white leading-[162%] tracking-[-2%]">
             Ayisha Jewelery, a trusted manufacturer and wholesaler with over 35
             years of experience, is proud to introduce AYS JEWELS, our new
             retail entity. Our signature collections in antique jewelry is

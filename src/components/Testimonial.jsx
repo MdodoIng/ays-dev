@@ -26,29 +26,29 @@ const data = [
 
 const Testimonial = () => {
   return (
-    <div className="px-28 py-20 bg-[#FFF7F1] flex items-center justify-center">
-      <div className="flex items-center justify-center flex-col max-w-[1099px]">
-        <h4 className="mb-5 text-[22px] leading-[136%] tracking-[-2%] text-[#463328]">
+    <div className="xl:px-28 xl:py-20 px-24 py-16 bg-[#FFF7F1] flex items-center justify-center">
+      <div className="flex items-center justify-center flex-col xl:max-w-[1099px]  w-[90%]">
+        <h4 className="mb-5 xl:text-[22px] text-xl leading-[136%] tracking-[-2%] text-[#463328]">
           what the say
         </h4>
-        <h1 className="mb-20 font-luxiaDisplay text-[90px] leading-9 text-black">
+        <h1 className="xl:mb-20 mb-16 font-luxiaDisplay xl:text-[90px] text-7xl leading-9 text-black">
           Testimonials
         </h1>
         <Swiper
           effect={"fade"}
           modules={[EffectFade, Pagination, Autoplay]}
           autoplay
-          className="flex items-center justify-center w-full"
+          className="flex items-center justify-center w-full "
         >
           {data.map((item) => (
             <React.Fragment key={item.id}>
-              <SwiperSlide className="flex items-center justify-between w-full bg-primary ">
-                <div className="flex items-center justify-start h-full shrink-0 relative py-[5%]">
-                  <span className="w-[70%] bg-[#FFF7F1] h-full absolute left-0 -z-10 top-0" />
+              <SwiperSlide className="flex items-center justify-between w-[50%] bg-primary overflow-hidden">
+                <div className="flex items-center justify-start h-full shrink-0 relative py-[5%] ">
+                  <span className="w-[70%] bg-[#FFF7F1] h-[1000px] absolute left-0 -z-10 " />
                   <img
                     src={Apostrophe}
                     alt=""
-                    className="w-[67px] h-[67px] object-contain absolute top-3 right-0"
+                    className="xl:w-[67px] xl:h-[67px] w-[50px] h-[50px] object-contain absolute top-3 right-0"
                   />
                   <MainImage
                     src={item.picture}
@@ -56,25 +56,25 @@ const Testimonial = () => {
                     alt="promiseOfPurityHeading"
                     width={343}
                     height={420}
-                    className="object-contain object-left max-w-[343px] max-h-[90%] w-full"
+                    className="object-contain object-left xl:max-w-[343px] max-w-[230px] max-h-[90%] w-full"
                   />
                 </div>
-                <div className="flex flex-col justify-start text-white px-36">
+                <div className="flex flex-col justify-start text-white xl:px-36 px-20 py-10">
                   <MainImage
                     src={fiveStar}
                     loading="lazy"
                     alt="promiseOfPurityHeading"
                     width={144.64}
                     height={32.64}
-                    className="object-contain"
+                    className="object-contain xl:w-[144px] w-[120px] "
                   />
 
-                  <p className=" text-lg leading-[162%] tracking-[-2%] mt-5">
+                  <p className=" xl:text-lg text-base leading-[162%] tracking-[-2%] xl:mt-5 mt-4 ">
                     "{item.text}"
                   </p>
-                  <h5 className="font-luxiaDisplay text-lg leading-7 tracking-[-0.2px] mt-[30px]">
+                  <h5 className="font-luxiaDisplay xl:text-lg text-base leading-7 tracking-[-0.2px] xl:mt-[30px] mt-6">
                     {item.name}
-                    <span className="text-sm text-[#939393] ml-[30px]">
+                    <span className="xl:text-sm text-xs text-[#939393] xl:ml-[30px] ml-6">
                       {item.position}
                     </span>
                   </h5>

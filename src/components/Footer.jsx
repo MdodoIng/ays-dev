@@ -30,7 +30,7 @@ const Footer = () => {
     </div>
   );
   return (
-    <div className="px-28 bg-primary pt-32 pb-8">
+    <div className="xl:px-28 px-24 bg-primary pt-24 pb-8">
       <div className="flex w-full items-center justify-center h-full max-w-[1440px] mx-auto">
 
       <div className="flex justify-between w-full">

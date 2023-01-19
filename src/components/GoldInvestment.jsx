@@ -34,7 +34,7 @@ const GoldInvestment = () => {
     },
   ];
   return (
-    <div className="flex flex-col w-full items-center justify-center h-full bg-gradient-to-tr from-[#1B5442] to-[#01261A] pt-24 pb-36 px-28 relative z-30">
+    <div className="flex flex-col w-full items-center justify-center h-full bg-gradient-to-tr from-[#1B5442] to-[#01261A] xl:pt-24 pt-20 xl:pb-36 pb-28 xl:px-28 px-24 relative z-30">
       <MainImage
         src={yearsOf35Pattern}
         loading="lazy"
@@ -52,32 +52,32 @@ const GoldInvestment = () => {
           alt="35years"
           width={579}
           height={208}
-          className="object-contain max-w-[579px] w-full h-full"
+          className="object-contain xl:max-w-[579px] max-w-[480px] w-full h-full"
         />
       </div>
-      <div className="grid grid-cols-3 gap-[50px] mt-10">
+      <div className="grid grid-cols-3 xl:gap-[50px] gap-10 mt-10">
         {data.map((item) => (
           <div
           key={item.id}
-          className="items-center justify-center text-center text-white"
+          className="items-center justify-center text-center text-white grid"
           >
-            <div className="flex items-center justify-center mb-5">
+            <div className="flex items-center justify-center xl:mb-5 mb-4">
               <MainImage
                 src={item.icon}
                 loading="lazy"
                 alt="35years"
                 width={60}
                 height={60}
-                className="object-contain"
+                className="object-contain xl:w-[60px] xl:h-[60px] w-[50px] h-[50px]"
                 />
             </div>
-            <h1 className="font-luxiaRegular leading-[120%] text-[50px] tracking-normal">
+            <h1 className="font-luxiaRegular leading-[120%] xl:text-[50px] text-4xl tracking-normal shrink-0">
               {item.title}
             </h1>
-            <h2 className="font-quasimodaRegular text-[22px] tracking-[12%] leading-[120%] text-[#FFCE07]">
+            <h2 className="font-quasimodaRegular x;:text-[22px] text-xl tracking-[12%] leading-[120%] text-[#FFCE07]">
               {item.subtitle}
             </h2>
-            <p className="font-quasimodaRegular text-[20px] leading-[162%] tracking-[-2%]">
+            <p className="font-quasimodaRegular xl:text-[20px] text-lg leading-[162%] tracking-[-2%]">
               {item.detail}
             </p>
           </div>
