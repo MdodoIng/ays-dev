@@ -4,14 +4,33 @@ import modern_design_antic_tech from "../assets/images/element/modern design ant
 import EnquireBtn from "../ui/EnquireBtn";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import { EffectFade, Pagination } from "swiper";
+import { Autoplay, EffectFade, Pagination } from "swiper";
 import { Link } from "gatsby";
 import { FBinRoundIcon, GoogleIcon, InstagramIcon } from "../lib/icon";
+import { model1, model2, model3, model4 } from "../assets/images/hero";
 
 const HeroSection = () => {
+  const slider = [
+    {
+      id: 1,
+      slide: model1,
+    },
+    {
+      id: 2,
+      slide: model2,
+    },
+    {
+      id: 3,
+      slide: model3,
+    },
+    {
+      id: 4,
+      slide: model4,
+    },
+  ];
   return (
     <div className="hero_section bg-white flex flex-row justify-between items-center relative z-20">
-      <span className="absolute h-full w-[20%] bg-black top-0 right-0 -z-10 bg-gradient-to-tr to-[#1B5442] from-[#002419]" />
+      <span className="absolute h-full w-[366px] bg-black top-0 right-0 -z-10 bg-gradient-to-tr to-[#1B5442] from-[#002419]" />
       <div className="grid place-content-center place-items-center w-[40%] px-32">
         <MainImage
           src={modern_design_antic_tech}
@@ -27,46 +46,26 @@ const HeroSection = () => {
         </p>
         <EnquireBtn className="mt-7" />
       </div>
-      <div className="flex w-[40%] shrink-0 ">
+      <div className="flex w-[40%] shrink-0 h-full py-24">
         <Swiper
-          spaceBetween={30}
           effect={"fade"}
-          modules={[EffectFade, Pagination]}
+          modules={[EffectFade, Pagination, Autoplay]}
           className="mySwiper"
+          autoplay
+
         >
-          <SwiperSlide>
-            <StaticImage
-              src="../assets/images/element/Rectangle 6.png"
-              width={716}
-              height={732}
-              loading="lazy"
-              alt="pic"
-              objectFit="contain"
-              className="w-full h-full bg-transparent"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <StaticImage
-              src="../assets/images/element/Rectangle 6.png"
-              width={716}
-              height={732}
-              loading="lazy"
-              alt="pic"
-              objectFit="contain"
-              className="w-full h-full bg-transparent"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <StaticImage
-              src="../assets/images/element/Rectangle 6.png"
-              width={716}
-              height={732}
-              loading="lazy"
-              alt="pic"
-              objectFit="contain"
-              className="w-full h-full bg-transparent"
-            />
-          </SwiperSlide>
+          {slider.map((item) => (
+            <SwiperSlide key={item.id}>
+              <MainImage
+                src={item.slide}
+                loading="lazy"
+                alt="model"
+                width={716}
+                height={732}
+                className="object-contain w-full h-full max-w-[716] max-h-[732]"
+              />
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
       <div className="w-14 h-44 bg-primary rounded-tl-lg rounded-bl-lg flex items-center justify-between px-4 py-8 flex-col gap-6">

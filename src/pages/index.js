@@ -10,7 +10,7 @@ const IndexPage = () => {
       <AuraDiamond />
       <GoldInvestment />
       <PromiseYourPurity />
-      {/* <Testimonial /> */}
+      <Testimonial />
       <ContactUs/>
       <Footer />
     </main>
