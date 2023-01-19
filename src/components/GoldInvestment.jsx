@@ -43,6 +43,8 @@ const GoldInvestment = () => {
         height={1723}
         className="object-cover w-full -z-10 absolute h-full left-0 top-0"
       />
+      <div className="flex w-full flex-col items-center justify-center h-full max-w-[1440px] mx-auto">
+
       <div>
         <MainImage
           src={goldInvestmentHeading}
@@ -56,8 +58,8 @@ const GoldInvestment = () => {
       <div className="grid grid-cols-3 gap-[50px] mt-10">
         {data.map((item) => (
           <div
-            key={item.id}
-            className="items-center justify-center text-center text-white"
+          key={item.id}
+          className="items-center justify-center text-center text-white"
           >
             <div className="flex items-center justify-center mb-5">
               <MainImage
@@ -67,7 +69,7 @@ const GoldInvestment = () => {
                 width={60}
                 height={60}
                 className="object-contain"
-              />
+                />
             </div>
             <h1 className="font-luxiaRegular leading-[120%] text-[50px] tracking-normal">
               {item.title}
@@ -81,6 +83,7 @@ const GoldInvestment = () => {
           </div>
         ))}
       </div>
+        </div>
     </div>
   );
 };

@@ -15,7 +15,7 @@ const PromiseYourPurity = () => {
   );
 
   return (
-    <div className="flex items-center justify-center w-full px-28 py-28">
+    <div className="flex items-center justify-center w-full px-28 py-28 max-w-[1440px] mx-auto">
       <div className="shrink-0 w-[40%]">
         <MainImage
           src={promiseOfPurityHeading}
@@ -32,7 +32,7 @@ const PromiseYourPurity = () => {
         <Quality title="100% Transparency" />
         <Quality title="Life long maintenance" />
       </div>
-      <div className="w-full">
+      <div className="">
       <MainImage
           src={promiseOfPurityRng}
           loading="lazy"
@@ -44,6 +44,6 @@ const PromiseYourPurity = () => {
       </div>
     </div>
   );
-};
+ };
 
 export default PromiseYourPurity;

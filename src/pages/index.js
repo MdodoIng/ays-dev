@@ -3,7 +3,7 @@ import { Footer, Navbar, HeroSection, OurLegacy, AuraDiamond, GoldInvestment, Pr
 
 const IndexPage = () => {
   return (
-    <main>
+    <main className="mx-auto ">
       <Navbar />
       <HeroSection />
       <OurLegacy />

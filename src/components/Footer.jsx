@@ -31,6 +31,8 @@ const Footer = () => {
   );
   return (
     <div className="px-28 bg-primary pt-32 pb-8">
+      <div className="flex w-full items-center justify-center h-full max-w-[1440px] mx-auto">
+
       <div className="flex justify-between w-full">
         <div className="flex items-start justify-center flex-col gap-6">
           <Link>
@@ -39,7 +41,7 @@ const Footer = () => {
               alt="logo"
               loading="lazy"
               className="object-contain h-[76px] w-full"
-            />
+              />
           </Link>
           <p className="font-quasimodaLight text-[22px] leading-[30px] text-white font-light">
             Shop our entire lineup of fine faves in <br />
@@ -75,6 +77,7 @@ const Footer = () => {
             <Follow_us icon={<LinkedInIcon />} lin="" />
           </div>
         </div>
+              </div>
       </div>
       <p className="font-inter text-white text-center mt-20">
         © Copyright 2023, All Rights Reserved by AYS Jewels

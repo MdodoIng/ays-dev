@@ -15,6 +15,8 @@ const AuraDiamond = () => {
         height={1723}
         className="object-cover w-full -z-10 absolute h-full left-0 top-0"
       />
+      <div className="flex w-full items-center justify-center h-full max-w-[1440px] mx-auto">
+
       <div className="w-[50%] flex items-center justify-end">
         <MainImage
           src={aura_diamondModel}
@@ -23,7 +25,7 @@ const AuraDiamond = () => {
           width={656}
           height={593}
           className="object-contain w-full h-full max-w-[656px] max-h-[593px]"
-        />
+          />
       </div>
       <div className="w-[50%] pl-20">
         <MainImage
@@ -33,7 +35,7 @@ const AuraDiamond = () => {
           width={295.48}
           height={169.05}
           className="object-contain w-full h-full max-w-[295.48px] max-h-[169.05px]"
-        />
+          />
         <p className="text-[22px] leading-[162%] tracking-[-2%] text-black mt-6">
           Unleash your regal radiance and make a statement at your upcoming
           celebrations by adorning yourself with the mesmerizing sparkle of AYS
@@ -42,6 +44,7 @@ const AuraDiamond = () => {
           center stage.
         </p>
       </div>
+          </div>
     </div>
   );
 };

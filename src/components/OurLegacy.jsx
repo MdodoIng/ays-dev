@@ -23,36 +23,39 @@ const OurLegacy = () => {
         height={523.75}
         className="object-contain w-full h-full max-h-[523.75px] max-w-[463.58px] -z-10 absolute -left-[120px]"
       />
-      <span  className="h-[15px] w-full absolute left-0 bottom-0 bg-gradient-to-r from-[#A37832] to-[#CEAB61]"/>
-      <div className="w-[40%] flex items-center justify-end h-full shrink-0 px-28">
-        <MainImage
-          src={yearsOf35}
-          loading="lazy"
-          alt="35years"
-          width={307}
-          height={282}
-          className="object-contain max-w-[307px] w-full h-full"
-        />
-      </div>
-      <div className="w-full">
-        <h1 className="font-luxiaDisplay text-7xl text-white leading-[167%] tracking-[-2%]">
-          Our Legacy
-        </h1>
-        <p className="text-[22px] text-white leading-[162%] tracking-[-2%]">
-          Ayisha Jewelery, a trusted manufacturer and wholesaler with over 35
-          years of experience, is proud to introduce AYS JEWELS, our new retail
-          entity. Our signature collections in antique jewelry is carefully
-          curated to showcase a blend of timeless designs and contemporary
-          styles. Whether you are looking for a statement piece for a special
-          occasion or an everyday accessory, our wide range of options will have
-          something to suit your taste. We believe that jewelry is not just an
-          accessory, but a way to express yourself and celebrate life's most
-          precious moments. At AYS JEWELS, our staff offers personalized
-          assistance to help you find the perfect jewelry piece, among our vast
-          selection, to match your style, budget and occasion. We are thrilled
-          to share our passion for jewelry with you and look forward to helping
-          you find the perfect piece to suit your style and tell your story.
-        </p>
+      <span className="h-[15px] w-full absolute left-0 bottom-0 bg-gradient-to-r from-[#A37832] to-[#CEAB61]" />
+      <div className="flex w-full items-center justify-center h-full max-w-[1440px] mx-auto">
+        <div className="w-[40%] flex items-center justify-end h-full shrink-0 px-28">
+          <MainImage
+            src={yearsOf35}
+            loading="lazy"
+            alt="35years"
+            width={307}
+            height={282}
+            className="object-contain max-w-[307px] w-full h-full"
+          />
+        </div>
+        <div className="w-full">
+          <h1 className="font-luxiaDisplay text-7xl text-white leading-[167%] tracking-[-2%]">
+            Our Legacy
+          </h1>
+          <p className="text-[22px] text-white leading-[162%] tracking-[-2%]">
+            Ayisha Jewelery, a trusted manufacturer and wholesaler with over 35
+            years of experience, is proud to introduce AYS JEWELS, our new
+            retail entity. Our signature collections in antique jewelry is
+            carefully curated to showcase a blend of timeless designs and
+            contemporary styles. Whether you are looking for a statement piece
+            for a special occasion or an everyday accessory, our wide range of
+            options will have something to suit your taste. We believe that
+            jewelry is not just an accessory, but a way to express yourself and
+            celebrate life's most precious moments. At AYS JEWELS, our staff
+            offers personalized assistance to help you find the perfect jewelry
+            piece, among our vast selection, to match your style, budget and
+            occasion. We are thrilled to share our passion for jewelry with you
+            and look forward to helping you find the perfect piece to suit your
+            style and tell your story.
+          </p>
+        </div>
       </div>
     </div>
   );

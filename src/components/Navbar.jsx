@@ -26,7 +26,7 @@ const navLinks = [
 ];
 
 const Navbar = () => (
-  <nav className="flex justify-between items-center w-full overflow-hidden h-[165px] bg-primary px-28">
+  <nav className="flex justify-between items-center w-full h-[165px] relative px-28 max-w-[1440px] mx-auto after:content-[' '] after:absolute after:w-[1000000px] after:h-full after:top-0 after:-left-[500%] after:bg-primary after:-z-10">
     <div className="">
       <img src={logo} alt="logo" className="object-contain h-[76px] w-full" />
     </div>
