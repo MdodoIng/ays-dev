@@ -34,7 +34,7 @@ const Footer = () => {
       <div className="flex w-full items-center justify-center h-full max-w-[1440px] mx-auto">
 
       <div className="flex justify-between w-full items-start">
-        <div className="flex items-start justify-center flex-col gap-6">
+        <div className="flex items-start justify-center flex-col gap-5">
           <Link>
             <img
               src={logo}
@@ -52,7 +52,7 @@ const Footer = () => {
           <h2 className="font-quasimodaLight text-white xl:text-3xl text-2xl font-light">
             Contact us
           </h2>
-          <div className="grid place-items-start xl:gap-7 gap-6">
+          <div className="grid place-items-start xl:gap-5 gap-4">
             <Contact_us
               title="Kondotty, Malappuram, Kerala."
               icon={<LocationIcon className="" />}
@@ -79,7 +79,7 @@ const Footer = () => {
         </div>
               </div>
       </div>
-      <p className="font-inter text-white text-center mt-20">
+      <p className="font-inter text-white text-center mt-10">
         © Copyright 2023, All Rights Reserved by AYS Jewels
       </p>
     </div>
