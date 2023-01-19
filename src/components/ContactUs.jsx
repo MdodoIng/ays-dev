@@ -3,7 +3,7 @@ import EnquireBtn from "../ui/EnquireBtn";
 
 const ContactUs = () => {
   return (
-    <div className="xl:px-28 px-24 xl:py-[88px] py-20 flex items-center justify-center flex-col">
+    <div id="contactUs" className="xl:px-28 px-24 xl:py-[88px] py-20 flex items-center justify-center flex-col">
       <h1 className="font-luxiaDisplay xl:text-[90px] text-7xl leading-9 text-black  ">
         Contact Us
       </h1>

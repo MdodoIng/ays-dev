@@ -10,6 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Quasimoda-Light";
+  scroll-behavior: smooth;
 }
 h1 {
   @apply text-5xl;
@@ -29,5 +30,23 @@ h3 {
     .hero_section {
       height: 727px;
     }
+  }
+}
+
+@media (max-width : 1024px) {
+
+  .hero_section {
+    height: 727px;
+  }
+  @media (max-height : 1024px) {
+    .hero_section {
+      height: calc(100vh - 106px);
+    }
+  }
+}
+
+@media (max-width : 640px) {
+  .hero_section {
+    height: calc(100vh - 106px);
   }
 }

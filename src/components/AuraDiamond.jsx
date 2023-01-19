@@ -6,7 +6,10 @@ import aura_diamondPattern from "../assets/images/element/aura_diamondPattern.sv
 
 const AuraDiamond = () => {
   return (
-    <div className="flex items-center justify-center py-[105px] relative z-30 bg-[#FFF7F1] xl:px-28 px-24">
+    <div
+      id="collections"
+      className="flex items-center justify-center sm:py-[105px] py-20 relative z-30 bg-[#FFF7F1] xl:px-28 sm:px-24 px-7"
+    >
       <MainImage
         src={aura_diamondPattern}
         loading="lazy"
@@ -15,36 +18,45 @@ const AuraDiamond = () => {
         height={1723}
         className="object-cover w-full -z-10 absolute h-full left-0 top-0"
       />
-      <div className="flex w-full items-center justify-center h-full max-w-[1440px] mx-auto">
-
-      <div className="w-[50%] flex items-center justify-end">
-        <MainImage
-          src={aura_diamondModel}
-          loading="lazy"
-          alt="35years"
-          width={656}
-          height={593}
-          className="object-contain w-full h-full xl:max-w-[656px] xl:max-h-[593px]"
+      <div className="flex w-full items-center  sm:flex-row flex-col justify-center h-full max-w-[1440px] mx-auto">
+        <div className="sm:w-[50%] flex items-center justify-end">
+          <MainImage
+            src={aura_diamondModel}
+            loading="lazy"
+            alt="35years"
+            width={656}
+            height={593}
+            className="object-contain w-full h-full xl:max-w-[656px] xl:max-h-[593px]"
           />
-      </div>
-      <div className="w-[50%] pl-20">
-        <MainImage
-          src={aura_diamondHead}
-          loading="lazy"
-          alt="35years"
-          width={295.48}
-          height={169.05}
-          className="object-contain w-full h-full xl:max-w-[295.48px] max-w-[200px] max-h-[169.05px]"
+        </div>
+        <div className="sm:w-[50%] sm:pl-20 max-sm:mt-3">
+          <MainImage
+            src={aura_diamondHead}
+            loading="lazy"
+            alt="35years"
+            width={295.48}
+            height={169.05}
+            className="object-contain w-full h-full xl:max-w-[295.48px] max-w-[200px] max-h-[169.05px] sm:block hidden"
           />
-        <p className="xl:text-[22px] text-xl leading-[162%] tracking-[-2%] text-black mt-6">
-          Unleash your regal radiance and make a statement at your upcoming
-          celebrations by adorning yourself with the mesmerizing sparkle of AYS
-          JEWEL'S Aura Diamond Collection. These diamonds will elevate your
-          beauty to new heights and ensure that all eyes are on you, as you take
-          center stage.
-        </p>
-      </div>
+          <div className="sm:hidden flex w-full items-center justify-center">
+            <MainImage
+              src={aura_diamondHead}
+              loading="lazy"
+              alt="35years"
+              width={165.56}
+              height={127.76}
+              className="object-contain w-full h-full max-h-[127.76px]"
+            />
           </div>
+          <p className="xl:text-[22px] sm:text-xl text-lg leading-[162%] tracking-[-2%] text-black mt-6">
+            Unleash your regal radiance and make a statement at your upcoming
+            celebrations by adorning yourself with the mesmerizing sparkle of
+            AYS JEWEL'S Aura Diamond Collection. These diamonds will elevate
+            your beauty to new heights and ensure that all eyes are on you, as
+            you take center stage.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

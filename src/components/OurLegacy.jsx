@@ -1,12 +1,13 @@
 import { MainImage } from "gatsby-plugin-image";
 import React from "react";
 import yearsOf35 from "../assets/images/element/35Years.svg";
+import yearsOf35mob from "../assets/images/element/35 years of in mob.svg";
 import yearsOf35Leaf from "../assets/images/element/35YearsLeaf.svg";
 import yearsOf35Pattern from "../assets/images/element/35YearsPattern.svg";
 
 const OurLegacy = () => {
   return (
-    <div className="flex w-full items-center justify-center h-full bg-gradient-to-tr from-[#1B5442] to-[#01261A] xl:pt-24 pt-20 xl:pb-36 pb-28 xl:px-28 px-24  relative z-30">
+    <div id="about-us" className="flex w-full items-center justify-center h-full bg-gradient-to-tr from-[#1B5442] to-[#01261A] xl:pt-24 sm:pt-20 pt-16 max-sm:pb-12 xl:pb-36 pb-28 xl:px-28 sm:px-24 px-7 relative z-30">
       <MainImage
         src={yearsOf35Pattern}
         loading="lazy"
@@ -21,25 +22,34 @@ const OurLegacy = () => {
         alt="35years"
         width={463.58}
         height={523.75}
-        className="object-contain w-full h-full max-h-[523.75px] max-w-[463.58px] -z-10 absolute -left-[120px]"
+        className="object-contain w-full h-full sm:max-h-[523.75px]  sm:max-w-[463.58px] max-h-[192.17px] max-w-[170px]  -z-10 absolute sm:-left-[120px] -left-10  max-sm:top-20"
       />
       <span className="h-[15px] w-full absolute left-0 bottom-0 bg-gradient-to-r from-[#A37832] to-[#CEAB61]" />
-      <div className="flex w-full items-center justify-center h-full max-w-[1440px] mx-auto">
-        <div className="w-[40%] flex items-center justify-end h-full shrink-0 xl:pr-28 pr-20">
+
+      <div className="flex flex-col sm:flex-row w-full items-center justify-center h-full max-w-[1440px] mx-auto">
+        <div className="sm:w-[40%] flex items-center sm:justify-end justify-center h-full shrink-0 xl:pr-28 sm:pr-20 ">
           <MainImage
             src={yearsOf35}
             loading="lazy"
             alt="35years"
             width={307}
             height={282}
-            className="object-contain max-w-[307px] w-full h-full shrink-0"
+            className="object-contain max-w-[307px] w-full h-full shrink-0 sm:block hidden" 
+          />
+          <MainImage
+            src={yearsOf35mob}
+            loading="lazy"
+            alt="35years"
+            width={169.91}
+            height={173.6}
+            className="object-contain max-w-[169px] w-full h-full shrink-0 block sm:hidden" 
           />
         </div>
-        <div className="w-full">
-          <h1 className="font-luxiaDisplay xl:text-7xl text-6xl text-white leading-[167%] tracking-[-2%]">
+        <div className="w-full max-sm:mt-12">
+          <h1 className="font-luxiaDisplay xl:text-7xl sm:text-6xl text-3xl text-white sm:leading-[167%] leading-[175%] sm:tracking-[-2%] tracking-[-0.5%]">
             Our Legacy
           </h1>
-          <p className="xl:text-[22px] text-xl text-white leading-[162%] tracking-[-2%]">
+          <p className="xl:text-[22px] SM:text-xl text-lg text-white leading-[162%] tracking-[-2%]">
             Ayisha Jewelery, a trusted manufacturer and wholesaler with over 35
             years of experience, is proud to introduce AYS JEWELS, our new
             retail entity. Our signature collections in antique jewelry is

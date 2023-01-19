@@ -34,7 +34,7 @@ const GoldInvestment = () => {
     },
   ];
   return (
-    <div className="flex flex-col w-full items-center justify-center h-full bg-gradient-to-tr from-[#1B5442] to-[#01261A] xl:pt-24 pt-20 xl:pb-36 pb-28 xl:px-28 px-24 relative z-30">
+    <div id="purchasePlans" className="flex flex-col w-full items-center justify-center h-full bg-gradient-to-tr from-[#1B5442] to-[#01261A] xl:pt-24 sm:pt-20 pt-8 xl:pb-36 sm:pb-28 pb-16 xl:px-28 sm:px-24 px-7 relative z-30">
       <MainImage
         src={yearsOf35Pattern}
         loading="lazy"
@@ -43,6 +43,7 @@ const GoldInvestment = () => {
         height={1723}
         className="object-cover w-full -z-10 absolute h-full left-0 top-0"
       />
+      <span className="h-[15px] w-full absolute left-0 bottom-0 bg-gradient-to-r from-[#A37832] to-[#CEAB61]" />
       <div className="flex w-full flex-col items-center justify-center h-full max-w-[1440px] mx-auto">
 
       <div>
@@ -52,10 +53,10 @@ const GoldInvestment = () => {
           alt="35years"
           width={579}
           height={208}
-          className="object-contain xl:max-w-[579px] max-w-[480px] w-full h-full"
+          className="object-contain xl:max-w-[579px] sm:max-w-[480px] max-w-[347px] w-full h-full"
         />
       </div>
-      <div className="grid grid-cols-3 xl:gap-[50px] gap-10 mt-10">
+      <div className="grid sm:grid-cols-3  xl:gap-[50px] sm:gap-10 gap-9 mt-10">
         {data.map((item) => (
           <div
           key={item.id}
@@ -71,13 +72,13 @@ const GoldInvestment = () => {
                 className="object-contain xl:w-[60px] xl:h-[60px] w-[50px] h-[50px]"
                 />
             </div>
-            <h1 className="font-luxiaRegular leading-[120%] xl:text-[50px] text-4xl tracking-normal shrink-0">
+            <h1 className="font-luxiaRegular leading-[120%] xl:text-[50px] sm:text-4xl text-3xl tracking-normal shrink-0">
               {item.title}
             </h1>
-            <h2 className="font-quasimodaRegular x;:text-[22px] text-xl tracking-[12%] leading-[120%] text-[#FFCE07]">
+            <h2 className="font-quasimodaRegular xl:text-[22px] sm:text-xl text-lg tracking-[12%] leading-[120%] text-[#FFCE07]">
               {item.subtitle}
             </h2>
-            <p className="font-quasimodaRegular xl:text-[20px] text-lg leading-[162%] tracking-[-2%]">
+            <p className="font-quasimodaRegular xl:text-[20px] sm:text-lg text-sm leading-[162%] tracking-[-2%] mt-[14px]">
               {item.detail}
             </p>
           </div>
