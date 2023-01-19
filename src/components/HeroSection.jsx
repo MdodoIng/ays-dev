@@ -31,7 +31,7 @@ const HeroSection = () => {
   return (
     <div className="hero_section bg-white flex flex-row justify-between items-center relative z-20">
       <span className="absolute h-full w-[366px] bg-black top-0 right-0 -z-10 bg-gradient-to-tr to-[#1B5442] from-[#002419]" />
-      <div className="grid place-content-center place-items-center w-[40%] px-32">
+      <div className="grid place-content-center place-items-center w-[40%] pl-32">
         <MainImage
           src={modern_design_antic_tech}
           alt="modern_design_antic_tech"
@@ -50,7 +50,7 @@ const HeroSection = () => {
         <Swiper
           effect={"fade"}
           modules={[EffectFade, Pagination, Autoplay]}
-          className="mySwiper"
+          className="duration-300 ease-in "
           autoplay
 
         >
