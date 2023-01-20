@@ -65,9 +65,10 @@ const Navbar = () => {
 
       <div
         className={`${
-          isToggle ? "flex" : "hidden"
-        }  w-full h-full top-0 left-0 bg-primary z-50 fixed flex-col`}
+          isToggle ? "z-50 translate-x-0" : "-z-50 translate-x-[400%]"
+        }  w-full h-full top-0 left-0 bg-primary fixed flex-col flex duration-500 ease-linear`}
       >
+        <span className="fixed -z-10 w-[100000%] h-full backdrop-blur-lg -left-[100%]"/>
         <div className="h-[108px] grid place-items-center w-full relative ">
           <img src={logo} alt="logo" className="object-contain h-[38px] " />
           <span className="h-1 w-full bg-gradient-to-r from-[#A37832] to-[#CEAB61]" />

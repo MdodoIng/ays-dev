@@ -2,7 +2,6 @@ import { MainImage } from "gatsby-plugin-image";
 import React from "react";
 import promiseOfPurityHeading from "../assets/images/element/promiseOfPurity.svg";
 import promiseOfPurityRng from "../assets/images/element/promiseOfPurityRng.png";
-import { StartIcon } from "../lib/icon";
 import start from "../assets/icons/one start.svg";
 
 
@@ -18,7 +17,7 @@ const PromiseYourPurity = () => {
 
   return (
     <div className="flex items-center justify-center w-full xl:px-28 lg:px-24 sm:px-12 px-7 xl:py-28 lg:py-24 sm:py-16 py-11 max-w-[1440px] mx-auto gap-10 sm:flex-row flex-col-reverse">
-      <div className="shrink-0 sm:w-[40%] max-sm:mt-9 flex flex-col items-start justify-start w-full">
+      <div className="shrink-0 sm:w-[40%] max-sm:mt-9 flex flex-col items-start sm:justify-start justify-center w-max">
         <MainImage
           src={promiseOfPurityHeading}
           loading="lazy"

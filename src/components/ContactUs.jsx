@@ -18,7 +18,7 @@ const ContactUs = () => {
   return (
     <div
       id="contactUs"
-      className="xl:px-28 lg:px-24 sm:px-12 px-7 xl:py-[88px] lg:py-20 sm:py-10 py-11 flex items-center justify-center flex-col"
+      className="xl:px-28 lg:px-24 sm:px-12 px-7 xl:py-[76px] lg:py-16 sm:py-10 py-11 flex items-center justify-center flex-col"
     >
       <h1 className="font-luxiaDisplay xl:text-[90px] lg:text-7xl text-3xl leading-9 text-black  ">
         Contact Us
@@ -28,7 +28,7 @@ const ContactUs = () => {
       </p>
       <form
         onSubmit={handleSubmit}
-        className="lg:max-w-[564px] sm:max-w-[372.21px] w-full flex flex-col items-center justify-center xl:gap-12 lg:gap-8 sm:gap-6 gap-7 xl:mt-16 sm:mt-10 mt-14"
+        className="lg:max-w-[564px] sm:max-w-[372.21px] w-full flex flex-col items-center justify-center xl:gap-12 lg:gap-8 sm:gap-6 gap-5 xl:mt-12 sm:mt-10 mt-10"
       >
         <input
           onChange={(e) => setFormValue({ ...formValue, name: e.target.value })}
