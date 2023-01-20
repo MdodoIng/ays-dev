@@ -75,7 +75,7 @@ const GoldInvestment = () => {
             <h1 className="font-luxiaRegular leading-[120%] xl:text-[50px] sm:text-4xl text-3xl tracking-normal shrink-0">
               {item.title}
             </h1>
-            <h2 className="font-quasimodaRegular xl:text-[22px] sm:text-xl text-lg tracking-[12%] leading-[120%] text-[#FFCE07]">
+            <h2 className="font-quasimodaRegular xl:text-[22px] sm:text-xl text-lg tracking-[12%] leading-[120%] text-[#FFCE07] sm:mt-3">
               {item.subtitle}
             </h2>
             <p className="font-quasimodaRegular xl:text-[20px] sm:text-lg text-sm leading-[162%] tracking-[-2%] mt-[14px]">
