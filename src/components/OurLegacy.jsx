@@ -7,7 +7,7 @@ import yearsOf35Pattern from "../assets/images/element/35YearsPattern.svg";
 
 const OurLegacy = () => {
   return (
-    <div id="about-us" className="flex w-full items-center justify-center h-full bg-gradient-to-tr from-[#1B5442] to-[#01261A] xl:pt-24 sm:pt-20 pt-16 max-sm:pb-12 xl:pb-36 pb-28 xl:px-28 sm:px-24 px-7 relative z-30">
+    <div id="about-us" className="flex w-full items-center justify-center h-full bg-gradient-to-tr from-[#1B5442] to-[#01261A] xl:pt-24 lg:pt-20 sm:pt-12 pt-16 max-sm:pb-12 xl:pb-36 lg:pb-28 pb-14 xl:px-28 lg:px-24 sm:px-12 px-7 relative z-30">
       <MainImage
         src={yearsOf35Pattern}
         loading="lazy"
@@ -22,19 +22,19 @@ const OurLegacy = () => {
         alt="35years"
         width={463.58}
         height={523.75}
-        className="object-contain w-full h-full sm:max-h-[523.75px]  sm:max-w-[463.58px] max-h-[192.17px] max-w-[170px]  -z-10 absolute sm:-left-[120px] -left-10  max-sm:top-20"
+        className="object-contain w-full h-full lg:max-h-[523.75px] sm:max-h-[252.89px] sm:max-w-[223.84px] lg:max-w-[463.58px] max-h-[192.17px] max-w-[170px]  -z-10 absolute lg:-left-[120px] sm:-left-16 -left-10  max-sm:top-20"
       />
       <span className="h-[15px] w-full absolute left-0 bottom-0 bg-gradient-to-r from-[#A37832] to-[#CEAB61]" />
 
       <div className="flex flex-col sm:flex-row w-full items-center justify-center h-full max-w-[1440px] mx-auto">
-        <div className="sm:w-[40%] flex items-center sm:justify-end justify-center h-full shrink-0 xl:pr-28 sm:pr-20 ">
+        <div className="lg:w-[40%] sm:w-[30%] flex items-center sm:justify-end justify-center h-full shrink-0 xl:pr-20 lg:pr-16 pr-12 ">
           <MainImage
             src={yearsOf35}
             loading="lazy"
             alt="35years"
             width={307}
             height={282}
-            className="object-contain max-w-[307px] w-full h-full shrink-0 sm:block hidden" 
+            className="object-contain lg:max-w-[307px] max-w-[130px] w-full h-full shrink-0 sm:block hidden" 
           />
           <MainImage
             src={yearsOf35mob}
@@ -46,10 +46,10 @@ const OurLegacy = () => {
           />
         </div>
         <div className="w-full max-sm:mt-12">
-          <h1 className="font-luxiaDisplay xl:text-7xl sm:text-6xl text-3xl text-white sm:leading-[167%] leading-[175%] sm:tracking-[-2%] tracking-[-0.5%]">
+          <h1 className="font-luxiaDisplay xl:text-7xl lg:text-6xl text-3xl text-white sm:leading-[167%] leading-[175%] sm:tracking-[-2%] tracking-[-0.5%]">
             Our Legacy
           </h1>
-          <p className="xl:text-[22px] SM:text-xl text-lg text-white leading-[162%] tracking-[-2%]">
+          <p className="xl:text-[22px] lg:text-xl sm:text-xs text-lg text-white leading-[162%] tracking-[-2%]">
             Ayisha Jewelery, a trusted manufacturer and wholesaler with over 35
             years of experience, is proud to introduce AYS JEWELS, our new
             retail entity. Our signature collections in antique jewelry is

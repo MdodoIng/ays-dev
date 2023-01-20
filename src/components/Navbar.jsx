@@ -30,19 +30,17 @@ const navLinks = [
 const Navbar = () => {
   const [isToggle, setIsToggle] = useState(false);
 
-  console.log(isToggle);
-
   return (
     <>
-      <nav className="flex justify-between items-center w-full xl:h-[165px] h-[106px] relative xl:px-28 sm:px-24 px-7 max-w-[1440px] mx-auto after:content-[' '] after:absolute after:w-[1000000px] after:h-full after:top-0 after:-left-[500%] after:bg-primary after:-z-10 min-[1440px]:overflow-visible overflow-hidden">
+      <nav className="flex justify-between items-center w-full xl:h-[165px] lg:h-[106px] h-[103px] relative xl:px-28 lg:px-24 sm:px-12 px-7 max-w-[1440px] mx-auto after:content-[' '] after:absolute after:w-[1000000px] after:h-full after:top-0 after:-left-[500%] after:bg-primary after:-z-10 min-[1440px]:overflow-visible overflow-hidden">
         <div className="">
           <img
             src={logo}
             alt="logo"
-            className="object-contain xl:h-[76px] md:h-[50px] h-[38px] sm:w-full"
+            className="object-contain xl:h-[76px] lg:h-[50px] sm:h-[40px] h-[38px] sm:w-full"
           />
         </div>
-        <div className="font-quasimodaRegular md:flex hidden xl:gap-11 gap-7 items-center justify-center">
+        <div className="font-quasimodaRegular lg:flex hidden xl:gap-11 gap-7 items-center justify-center">
           {navLinks.map((item) => (
             <a href={item.link}>
               <p className="font-quasimodaRegular tracking-[2%] shrink-0 text-white xl:text-2xl text-base">
@@ -55,7 +53,7 @@ const Navbar = () => {
         {/* mobile nav button */}
         <div
           onClick={() => setIsToggle(true)}
-          className="md:hidden flex w-[31px] h-[31px]  items-center flex-col justify-between bg-[#13372C]  rounded-md px-2 py-[10px] cursor-pointer"
+          className="lg:hidden flex sm:w-[38px] sm:h-[38px] w-[31px] h-[31px]  items-center flex-col justify-between bg-[#13372C]  rounded-md px-2 py-[10px] cursor-pointer"
         >
           <span className="bg-[#B6945C] h-[2px] w-full block rounded-full" />
           <span className="bg-[#B6945C] h-[2px] w-full block rounded-full" />

@@ -33,21 +33,29 @@ h3 {
   }
 }
 
-@media (max-width : 1024px) {
-
+@media (max-width: 1024px) {
   .hero_section {
     height: 727px;
   }
-  @media (max-height : 1024px) {
+  @media (max-height: 1024px) {
     .hero_section {
       height: calc(100vh - 106px);
     }
   }
 }
 
-@media (max-width : 640px) {
+@media (max-width: 640px) {
   .hero_section {
     /* height: calc(100vh - 106px); */
     height: 100%;
+  }
+}
+
+@media (min-width: 640px) {
+  @media (max-width: 1024px) {
+    .hero_section {
+      max-height: 500px;
+      height: 100%;
+    }
   }
 }

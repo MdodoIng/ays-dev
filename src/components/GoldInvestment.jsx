@@ -34,7 +34,7 @@ const GoldInvestment = () => {
     },
   ];
   return (
-    <div id="purchasePlans" className="flex flex-col w-full items-center justify-center h-full bg-gradient-to-tr from-[#1B5442] to-[#01261A] xl:pt-24 sm:pt-20 pt-8 xl:pb-36 sm:pb-28 pb-16 xl:px-28 sm:px-24 px-7 relative z-30">
+    <div id="purchasePlans" className="flex flex-col w-full items-center justify-center h-full bg-gradient-to-tr from-[#1B5442] to-[#01261A] xl:pt-24 lg:pt-20 sm:pt-12 pt-8 xl:pb-36 lg:pb-28 sm:pb-16 pb-16 xl:px-28 lg:px-24 sm:px-12 px-7 relative z-30">
       <MainImage
         src={yearsOf35Pattern}
         loading="lazy"
@@ -53,32 +53,32 @@ const GoldInvestment = () => {
           alt="35years"
           width={579}
           height={208}
-          className="object-contain xl:max-w-[579px] sm:max-w-[480px] max-w-[347px] w-full h-full"
+          className="object-contain xl:max-w-[579px] lg:max-w-[480px] sm:max-w-[380px] max-w-[347px] w-full h-full"
         />
       </div>
-      <div className="grid sm:grid-cols-3  xl:gap-[50px] sm:gap-10 gap-9 mt-10">
+      <div className="grid sm:grid-cols-3  xl:gap-[50px] sm:gap-10 lg:gap-9 gap-6 lg:mt-10 mt-6">
         {data.map((item) => (
           <div
           key={item.id}
-          className="items-center justify-center text-center text-white grid"
+          className="items-center justify-center text-center text-white lg:grid sm:flex flex-col grid"
           >
-            <div className="flex items-center justify-center xl:mb-5 mb-4">
+            <div className="flex items-center justify-center xl:mb-5 lg:mb-4 mb-2">
               <MainImage
                 src={item.icon}
                 loading="lazy"
                 alt="35years"
                 width={60}
                 height={60}
-                className="object-contain xl:w-[60px] xl:h-[60px] w-[50px] h-[50px]"
+                className="object-contain xl:w-[60px] xl:h-[60px] lg:w-[50px] lg:h-[50px] sm:w-[30px] sm:h-[30px]"
                 />
             </div>
-            <h1 className="font-luxiaRegular leading-[120%] xl:text-[50px] sm:text-4xl text-3xl tracking-normal shrink-0">
+            <h1 className="font-luxiaRegular leading-[120%] xl:text-[50px] lg:text-4xl sm:text-2xl text-3xl tracking-normal shrink-0">
               {item.title}
             </h1>
-            <h2 className="font-quasimodaRegular xl:text-[22px] sm:text-xl text-lg tracking-[12%] leading-[120%] text-[#FFCE07] sm:mt-3 uppercase">
+            <h2 className="font-quasimodaRegular xl:text-[22px] lg:text-xl sm:text-sm text-lg tracking-[12%] leading-[120%] text-[#FFCE07] lg:mt-3 mt-1 uppercase">
               {item.subtitle}
             </h2>
-            <p className="font-quasimodaRegular xl:text-[20px] sm:text-lg text-sm leading-[162%] tracking-[-2%] mt-[14px]">
+            <p className="font-quasimodaRegular xl:text-[20px] lg:text-lg sm:text-[10px] text-sm leading-[162%] tracking-[-2%] lg:mt-[14px]  mt-[6px]">
               {item.detail}
             </p>
           </div>
