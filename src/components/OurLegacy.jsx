@@ -49,7 +49,7 @@ const OurLegacy = () => {
           <h1 className="font-luxiaDisplay xl:text-7xl lg:text-6xl text-3xl text-white sm:leading-[167%] leading-[175%] sm:tracking-[-2%] tracking-[-0.5%]">
             Our Legacy
           </h1>
-          <p className="xl:text-[22px] lg:text-xl sm:text-xs text-lg text-white leading-[162%] tracking-[-2%]">
+          <p className="xl:text-[22px] lg:text-xl sm:text-xs text-lg text-white leading-[162%] tracking-[-2%] lg:mt-4">
             Ayisha Jewelery, a trusted manufacturer and wholesaler with over 35
             years of experience, is proud to introduce AYS JEWELS, our new
             retail entity. Our signature collections in antique jewelry is

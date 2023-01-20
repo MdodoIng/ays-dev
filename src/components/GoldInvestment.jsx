@@ -60,7 +60,7 @@ const GoldInvestment = () => {
         {data.map((item) => (
           <div
           key={item.id}
-          className="items-center justify-center text-center text-white lg:grid sm:flex flex-col grid"
+          className="items-center justify-center text-center text-white lg:grid sm:flex flex-col grid h-min"
           >
             <div className="flex items-center justify-center xl:mb-5 lg:mb-4 mb-2">
               <MainImage
@@ -72,13 +72,13 @@ const GoldInvestment = () => {
                 className="object-contain xl:w-[60px] xl:h-[60px] lg:w-[50px] lg:h-[50px] sm:w-[30px] sm:h-[30px]"
                 />
             </div>
-            <h1 className="font-luxiaRegular leading-[120%] xl:text-[50px] lg:text-4xl sm:text-2xl text-3xl tracking-normal shrink-0">
+            <h1 className="font-luxiaRegular lg:leading-[120%] leading-[120%] xl:text-[240%] lg:text-4xl sm:text-2xl text-3xl tracking-normal shrink-0">
               {item.title}
             </h1>
-            <h2 className="font-quasimodaRegular xl:text-[22px] lg:text-xl sm:text-sm text-lg tracking-[12%] leading-[120%] text-[#FFCE07] lg:mt-3 mt-1 uppercase">
+            <h2 className="font-quasimodaRegular xl:text-[120%] lg:text-xl sm:text-sm text-lg tracking-[12%] leading-[120%] text-[#FFCE07] uppercase">
               {item.subtitle}
             </h2>
-            <p className="font-quasimodaRegular xl:text-[20px] lg:text-lg sm:text-[10px] text-sm leading-[162%] tracking-[-2%] lg:mt-[14px]  mt-[6px]">
+            <p className="font-quasimodaRegular xl:text-[100%] lg:text-lg sm:text-[10px] text-sm leading-[162%] tracking-[-2%] lg:mt-[8px]  mt-[6px]">
               {item.detail}
             </p>
           </div>

@@ -13,7 +13,7 @@ import {
 const Footer = () => {
   const Contact_us = ({ title, icon }) => (
     <div className="flex items-start justify-center gap-4">
-      <span className="lg:h-7 lg:w-7 sm:h-6 sm:w-6 bg-[#13372C] rounded-lg flex items-center justify-center">
+      <span className="lg:h-7 lg:w-7 sm:h-6 sm:w-6 h-7 w-7 bg-[#13372C] rounded-lg flex items-center justify-center">
         {icon}
       </span>
       <p className="text-white lg::text-[22px] sm:text-xs text-lg leading-8 ">{title}</p>
@@ -23,7 +23,7 @@ const Footer = () => {
   const Follow_us = ({ link, icon }) => (
     <div className="flex items-start justify-center gap-4">
       <Link to={link}>
-        <span className="lg:h-7 lg:w-7 sm:h-6 sm:w-6 bg-[#13372C] rounded-lg flex items-center justify-center">
+        <span className="lg:h-7 lg:w-7 h-7 w-7  sm:h-6 sm:w-6 bg-[#13372C] rounded-lg flex items-center justify-center">
           {icon}
         </span>
       </Link>
