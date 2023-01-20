@@ -4,8 +4,8 @@ import { Autoplay, EffectFade, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Apostrophe from "../assets/icons/apostrophe.svg";
 import ApostropheGreen from "../assets/icons/apostropheGreen.svg";
-import user1 from "../assets/images/element/testimonialsUser1.png";
-import user2 from "../assets/images/element/testimonialsUser2.png";
+import user1 from "../assets/images/element/testimonialsUser1.webp";
+import user2 from "../assets/images/element/testimonialsUser2.webp";
 import fiveStar from "../assets/icons/5start.svg";
 
 const data = [
@@ -28,7 +28,7 @@ const data = [
 const Testimonial = () => {
   return (
     <div className="xl:px-28 xl:py-20 lg:px-24 sm:px-12 lg:py-16 sm:py-10 py-7 bg-[#FFF7F1] flex items-center justify-center">
-      <div className="flex items-center justify-center flex-col xl:max-w-[1099px]  sm:w-[90%] w-full">
+      <div className="flex items-center sm:justify-center justify-between flex-col xl:max-w-[1099px]  sm:w-[90%] w-full">
         <h4 className="lg:mb-5 sm:mb-1  xl:text-[22px] lg:text-xl sm:text-xs text-lg leading-[136%] tracking-[-2%] text-[#463328]">
           what the say
         </h4>

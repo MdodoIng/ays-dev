@@ -37,6 +37,9 @@ const Navbar = () => {
           <img
             src={logo}
             alt="logo"
+            loading="lazy"
+            width={100}
+            height={100}
             className="object-contain xl:h-[76px] lg:h-[50px] sm:h-[40px] h-[38px] sm:w-full"
           />
         </div>
@@ -70,7 +73,7 @@ const Navbar = () => {
       >
         <span className="fixed -z-10 w-[100000%] h-full backdrop-blur-lg -left-[100%]"/>
         <div className="h-[108px] grid place-items-center w-full relative ">
-          <img src={logo} alt="logo" className="object-contain h-[38px] " />
+          <img src={logo} alt="logo" className="object-contain h-[38px] " width={100} height={100} loading='lazy' />
           <span className="h-1 w-full bg-gradient-to-r from-[#A37832] to-[#CEAB61]" />
         </div>
         <div className="px-12 grid gap-11 py-14">
@@ -92,6 +95,7 @@ const Navbar = () => {
               src={google}
               alt="google"
               className="w-[15px] h-[15px] object-contain"
+              loading="lazy"
             />
           </Link>
           <Link
@@ -102,6 +106,7 @@ const Navbar = () => {
               src={instagram}
               alt="google"
               className="w-[15px] h-[15px] object-contain"
+              loading="lazy"
             />
           </Link>
           <Link

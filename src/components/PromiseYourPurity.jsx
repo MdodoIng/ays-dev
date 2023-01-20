@@ -8,7 +8,7 @@ import start from "../assets/icons/one start.svg";
 const PromiseYourPurity = () => {
   const Quality = ({ title }) => (
     <div className="flex items-center gap-[10px] ">
-      <img src={start} alt='start' className="xl:w-[50px] xl:h-[47px] lg:w-[40px] sm:w-[24px] w-[30px] object-contain" />
+      <img src={start} alt='start' className="xl:w-[50px] xl:h-[47px] lg:w-[40px] sm:w-[24px] w-[30px] object-contain" loading="lazy" width={100} height={100}/>
       <p className="xl:text-[30px] lg:text-2xl sm:text-sm text-xl leading-[162%] tracking-[-2%] font-quasimodaRegular text-primary ">
         {title}
       </p>

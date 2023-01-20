@@ -62,7 +62,7 @@ const HeroSection = () => {
               <SwiperSlide key={item.id}>
                 <MainImage
                   src={item.slide}
-                  loading="lazy"
+                  loading="eager"
                   alt="model"
                   width={716}
                   height={732}
@@ -111,7 +111,7 @@ const HeroSection = () => {
               <SwiperSlide key={item.id} >
                 <MainImage
                   src={item.slide}
-                  loading="lazy"
+                  loading="eager"
                   alt="model"
                   width={390}
                   height={390}

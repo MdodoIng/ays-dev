@@ -1,6 +1,6 @@
 import { MainImage } from "gatsby-plugin-image";
 import React from "react";
-import aura_diamondModel from "../assets/images/element/aura diamondModel.png";
+import aura_diamondModel from "../assets/images/element/aura diamondModel.webp";
 import aura_diamondHead from "../assets/images/element/aura_diamondHead.svg";
 import aura_diamondPattern from "../assets/images/element/aura_diamondPattern.svg";
 
@@ -29,7 +29,7 @@ const AuraDiamond = () => {
             className="object-contain w-full h-full xl:max-w-[656px] xl:max-h-[593px] max-w-[500px] max-h-[400px] "
           />
         </div>
-        <div className="sm:w-[50%] lg:pl-20 pl-10 max-sm:mt-3">
+        <div className="sm:w-[50%] lg:pl-20 sm:pl-10 max-sm:mt-3">
           <MainImage
             src={aura_diamondHead}
             loading="lazy"
