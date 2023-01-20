@@ -3,7 +3,7 @@ import { Footer, Navbar, HeroSection, OurLegacy, AuraDiamond, GoldInvestment, Pr
 
 const IndexPage = () => {
   return (
-    <main className="w-full flex flex-col items-center justify-center">
+    <main className="">
       <Navbar />
       <HeroSection />
       <OurLegacy />
