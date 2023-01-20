@@ -45,7 +45,7 @@ const AuraDiamond = () => {
               alt="35years"
               width={165.56}
               height={127.76}
-              className="object-contain w-full h-full max-h-[127.76px]"
+              className="object-contain w-full h-full max-h-[80px]"
             />
           </div>
           <p className="xl:text-[22px] sm:text-xl text-lg leading-[162%] tracking-[-2%] text-black mt-6">

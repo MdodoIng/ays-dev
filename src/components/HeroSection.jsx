@@ -121,7 +121,7 @@ const HeroSection = () => {
             ))}
           </Swiper>
         </div>
-        <div className="flex flex-col h-full items-center justify-center shrink-0 px-7 py-10">
+        <div className="flex flex-col h-full items-center justify-center shrink-0 px-7 py-8">
           <div className="w-full flex items-center justify-center">
             <MainImage
               src={modern_design_antic_tech}
