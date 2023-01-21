@@ -16,7 +16,7 @@ const Footer = () => {
       <span className="lg:h-7 lg:w-7 sm:h-6 sm:w-6 h-7 w-7 bg-[#13372C] rounded-lg flex items-center justify-center">
         {icon}
       </span>
-      <p className="text-white lg:text-[22px] sm:text-xs text-lg leading-8 ">{title}</p>
+      <p className="text-white lg:text-[22px] sm:text-xs text-lg xl:leading-[170%] leading-7">{title}</p>
     </div>
   );
 
@@ -34,7 +34,7 @@ const Footer = () => {
       <div className="flex sm:flex-row flex-col w-full items-center justify-center h-full max-w-[1536px] mx-auto">
         <div className="flex justify-between w-full items-start sm:flex-row flex-col gap-10">
           <div className="flex items-start justify-center flex-col gap-5">
-            <Link>
+            <Link className="flex items-start justify-start w-full">
               <img
                 src={logo}
                 alt="logo"
