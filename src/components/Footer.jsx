@@ -42,7 +42,7 @@ const Footer = () => {
                 className="object-contain xl:h-[60px] lg:h-12 sm:h-10 h-9 w-min"
               />
             </Link>
-            <p className="font-quasimodaLight xl:text-[22px] lg:text-xl sm:text-xs text-lg leading-[30px] text-white font-light">
+            <p className="font-quasimodaLight xl:text-[22px] lg:text-xl sm:text-xs text-lg sm:leading-[30px] leading-[140%] text-white font-light">
               Shop our entire lineup of fine faves in <br className="lg:block hidden" />
               store, get styled and join the Fine Crew.
             </p>
