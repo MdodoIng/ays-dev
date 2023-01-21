@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Apostrophe from "../assets/icons/apostrophe.svg";
 import ApostropheGreen from "../assets/icons/apostropheGreen.svg";
 import user1 from "../assets/images/element/testimonialsUser1.webp";
-import user2 from "../assets/images/element/testimonialsUser2.webp";
+import user2 from "../assets/images/element/testimonialsUser2 .webp";
 import fiveStar from "../assets/icons/5start.svg";
 
 const data = [
