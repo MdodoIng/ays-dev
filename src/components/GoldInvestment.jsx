@@ -47,7 +47,7 @@ const GoldInvestment = () => {
         className="object-cover w-full -z-10 absolute h-full left-0 top-0"
       />
       <span className="h-[15px] w-full absolute left-0 bottom-0 bg-gradient-to-r from-[#A37832] to-[#CEAB61]" />
-      <div className="flex w-full flex-col items-center justify-center h-full max-w-[1440px] mx-auto">
+      <div className="flex w-full flex-col items-center justify-center h-full max-w-2xl mx-auto">
         <div>
           <MainImage
             src={goldInvestmentHeading}
