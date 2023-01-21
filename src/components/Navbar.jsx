@@ -30,6 +30,13 @@ const navLinks = [
 const Navbar = () => {
   const [isToggle, setIsToggle] = useState(false);
 
+  const NavLink = ({ link, text }) => (
+    <a href={link}>
+      <p className="font-quasimodaRegular tracking-[2%] text-white xl:text-2xl text-base">
+        {text}
+      </p>
+    </a>
+  );
   return (
     <>
       <nav className="flex justify-between items-center w-full xl:h-[165px] lg:h-[106px] h-[103px] relative xl:px-28 lg:px-24 sm:px-12 px-7 max-w-[1536px] mx-auto after:content-[' '] after:absolute after:w-[1000000px] after:h-full after:top-0 after:-left-[500%] after:bg-primary after:-z-10 2xl:overflow-visible overflow-hidden">
@@ -44,13 +51,13 @@ const Navbar = () => {
           />
         </div>
         <div className="font-quasimodaRegular lg:flex hidden xl:gap-11 gap-7 items-center justify-center">
-          {navLinks.map((item) => (
-            <a href={item.link}>
-              <p className="font-quasimodaRegular tracking-[2%] shrink-0 text-white xl:text-2xl text-base">
-                {item.title}
-              </p>
-            </a>
-          ))}
+          <a href="#about-us">
+            <p className="font-quasimodaRegular tracking-[2%] text-white xl:text-2xl text-base"></p>
+          </a>
+          <NavLink link="#about-us" text="About&nbsp;Us" />
+          <NavLink link="#purchasePlans" text="Purchase&nbsp;Plans" />
+          <NavLink link="#collections" text="Collections" />
+          <NavLink link="#contactUs" text="Contact&nbsp;Us" />
         </div>
 
         {/* mobile nav button */}
@@ -94,7 +101,8 @@ const Navbar = () => {
         </div>
 
         <div className="px-12 flex-wrap flex items-center gap-5 ">
-          <Link target="_blank"
+          <Link
+            target="_blank"
             className="cursor-pointer 
            bg-[#13372C] w-[38px] h-[38px] flex items-center justify-center shrink-0 rounded-sm"
           >
@@ -105,7 +113,9 @@ const Navbar = () => {
               loading="lazy"
             />
           </Link>
-          <Link target="_blank" to="https://www.instagram.com/ays.jewels/"
+          <Link
+            target="_blank"
+            to="https://www.instagram.com/ays.jewels/"
             className="cursor-pointer 
            bg-[#13372C] w-[38px] h-[38px] flex items-center justify-center shrink-0 rounded-sm"
           >
@@ -116,7 +126,9 @@ const Navbar = () => {
               loading="lazy"
             />
           </Link>
-          <Link target="_blank" to="https://www.facebook.com/profile.php?id=100064403393989"
+          <Link
+            target="_blank"
+            to="https://www.facebook.com/profile.php?id=100064403393989"
             className="cursor-pointer 
            bg-[#13372C] w-[38px] h-[38px] flex items-center justify-center shrink-0 rounded-sm "
           >
