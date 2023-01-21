@@ -22,7 +22,7 @@ const Footer = () => {
 
   const Follow_us = ({ link, icon }) => (
     <div className="flex items-start justify-center gap-4">
-      <Link to={link}>
+      <Link to={link} target="_blank">
         <span className="lg:h-7 lg:w-7 h-7 w-7  sm:h-6 sm:w-6 bg-[#13372C] rounded-lg flex items-center justify-center">
           {icon}
         </span>
@@ -71,9 +71,9 @@ const Footer = () => {
               Follow us on
             </h2>
             <div className="flex xl:gap-[15px] lg:gap-3 sm:gap-2 gap-5 h-min">
-              <Follow_us icon={<FBIcon />} lin="" />
-              <Follow_us icon={<TwitterIcon />} lin="" />
-              <Follow_us icon={<LinkedInIcon />} lin="" />
+              <Follow_us icon={<FBIcon />} link="https://www.facebook.com/profile.php?id=100064403393989" />
+              <Follow_us icon={<TwitterIcon />} link="" />
+              <Follow_us icon={<LinkedInIcon />} link="" />
             </div>
           </div>
         </div>

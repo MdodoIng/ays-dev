@@ -94,7 +94,7 @@ const Navbar = () => {
         </div>
 
         <div className="px-12 flex-wrap flex items-center gap-5 ">
-          <Link
+          <Link target="_blank"
             className="cursor-pointer 
            bg-[#13372C] w-[38px] h-[38px] flex items-center justify-center shrink-0 rounded-sm"
           >
@@ -105,7 +105,7 @@ const Navbar = () => {
               loading="lazy"
             />
           </Link>
-          <Link
+          <Link target="_blank" to="https://www.instagram.com/ays.jewels/"
             className="cursor-pointer 
            bg-[#13372C] w-[38px] h-[38px] flex items-center justify-center shrink-0 rounded-sm"
           >
@@ -116,7 +116,7 @@ const Navbar = () => {
               loading="lazy"
             />
           </Link>
-          <Link
+          <Link target="_blank" to="https://www.facebook.com/profile.php?id=100064403393989"
             className="cursor-pointer 
            bg-[#13372C] w-[38px] h-[38px] flex items-center justify-center shrink-0 rounded-sm "
           >

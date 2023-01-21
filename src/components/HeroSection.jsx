@@ -51,7 +51,7 @@ const HeroSection = () => {
             </p>
             <EnquireBtn className="xl:mt-7 lg:mt-[25px] mt-4" />
           </div>
-          <div className="flex w-[40%] shrink-0 h-full py-24 ">
+          <div className="flex w-[40%] shrink-0 h-full py-10 ">
             <Swiper
               effect={"fade"}
               modules={[EffectFade, Pagination, Autoplay]}
@@ -73,21 +73,21 @@ const HeroSection = () => {
             </Swiper>
           </div>
           <div className="xl:w-14 lg:w-12 w-9 xl:h-44 lg:h-36 h-28 bg-primary rounded-tl-lg rounded-bl-lg flex items-center justify-between lg:px-4 lg:py-8 py-5 px-3 flex-col lg:gap-6  gap-[14px]">
-            <Link className="cursor-pointer">
+            <Link target="_blank" className="cursor-pointer">
               <img
                 src={google}
                 alt="google"
                 className="xl:w-[18px] xl:h-[18px] lg:w-[14px] lg:h-[14px] w-[12px] h-[12px]"
               />
             </Link>
-            <Link className="cursor-pointer">
+            <Link target="_blank" to="https://www.instagram.com/ays.jewels/" className="cursor-pointer">
               <img
                 src={instagram}
                 alt="google"
                 className="xl:w-[18px] xl:h-[18px]  lg:w-[14px] lg:h-[14px] w-[12px] h-[12px]"
               />
             </Link>
-            <Link className="cursor-pointer">
+            <Link target="_blank" to="https://www.facebook.com/profile.php?id=100064403393989" className="cursor-pointer">
               <img
                 src={fb}
                 alt="google"
