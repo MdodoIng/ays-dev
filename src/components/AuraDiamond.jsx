@@ -18,7 +18,7 @@ const AuraDiamond = () => {
         height={1723}
         className="object-cover w-full -z-10 absolute h-full left-0 top-0"
       />
-      <div className="flex w-full items-center  sm:flex-row flex-col justify-center h-full max-w-2xl mx-auto">
+      <div className="flex w-full items-center  sm:flex-row flex-col justify-center h-full max-w-[1536px] mx-auto">
         <div className="sm:w-[50%] flex items-center justify-end">
           <MainImage
             src={aura_diamondModel}

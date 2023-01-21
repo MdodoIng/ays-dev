@@ -16,7 +16,7 @@ const PromiseYourPurity = () => {
   );
 
   return (
-    <div className="flex items-center justify-center w-full xl:px-28 lg:px-24 sm:px-12 px-7 xl:py-28 lg:py-24 sm:py-16 py-11 max-w-2xl mx-auto gap-10 sm:flex-row flex-col-reverse">
+    <div className="flex items-center justify-center w-full xl:px-28 lg:px-24 sm:px-12 px-7 xl:py-28 lg:py-24 sm:py-16 py-11 max-w-[1536px] mx-auto gap-10 sm:flex-row flex-col-reverse">
       <div className="shrink-0 sm:w-[40%] max-sm:mt-9 flex flex-col items-start sm:justify-start justify-center w-max">
         <MainImage
           src={promiseOfPurityHeading}

@@ -26,7 +26,7 @@ const OurLegacy = () => {
       />
       <span className="h-[15px] w-full absolute left-0 bottom-0 bg-gradient-to-r from-[#A37832] to-[#CEAB61]" />
 
-      <div className="flex flex-col sm:flex-row w-full items-center justify-center h-full max-w-2xl mx-auto">
+      <div className="flex flex-col sm:flex-row w-full items-center justify-center h-full max-w-[1536px] mx-auto">
         <div className="lg:w-[40%] sm:w-[30%] flex items-center sm:justify-end justify-center h-full shrink-0 xl:pr-20 lg:pr-16 pr-12 ">
           <MainImage
             src={yearsOf35}

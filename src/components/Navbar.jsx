@@ -32,7 +32,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex justify-between items-center w-full xl:h-[165px] lg:h-[106px] h-[103px] relative xl:px-28 lg:px-24 sm:px-12 px-7 max-w-2xl mx-auto after:content-[' '] after:absolute after:w-[1000000px] after:h-full after:top-0 after:-left-[500%] after:bg-primary after:-z-10 2xl:overflow-visible overflow-hidden">
+      <nav className="flex justify-between items-center w-full xl:h-[165px] lg:h-[106px] h-[103px] relative xl:px-28 lg:px-24 sm:px-12 px-7 max-w-[1536px] mx-auto after:content-[' '] after:absolute after:w-[1000000px] after:h-full after:top-0 after:-left-[500%] after:bg-primary after:-z-10 2xl:overflow-visible overflow-hidden">
         <div className="">
           <img
             src={logo}

@@ -16,7 +16,7 @@ const Footer = () => {
       <span className="lg:h-7 lg:w-7 sm:h-6 sm:w-6 h-7 w-7 bg-[#13372C] rounded-lg flex items-center justify-center">
         {icon}
       </span>
-      <p className="text-white lg::text-[22px] sm:text-xs text-lg leading-8 ">{title}</p>
+      <p className="text-white lg:text-[22px] sm:text-xs text-lg leading-8 ">{title}</p>
     </div>
   );
 
@@ -31,7 +31,7 @@ const Footer = () => {
   );
   return (
     <div className="xl:px-28 lg:px-24 sm:px-12 px-7 bg-primary lg:pt-24 sm:pt-12 pt-10 lg:pb-8 pb-4">
-      <div className="flex sm:flex-row flex-col w-full items-center justify-center h-full max-w-2xl mx-auto">
+      <div className="flex sm:flex-row flex-col w-full items-center justify-center h-full max-w-[1536px] mx-auto">
         <div className="flex justify-between w-full items-start sm:flex-row flex-col gap-10">
           <div className="flex items-start justify-center flex-col gap-5">
             <Link>
@@ -39,7 +39,7 @@ const Footer = () => {
                 src={logo}
                 alt="logo"
                 loading="lazy"
-                className="object-contain xl:h-[60px] lg:h-12 sm:h-10 h-9 w-full"
+                className="object-contain xl:h-[60px] lg:h-12 sm:h-10 h-9 w-min"
               />
             </Link>
             <p className="font-quasimodaLight xl:text-[22px] lg:text-xl sm:text-xs text-lg leading-[30px] text-white font-light">

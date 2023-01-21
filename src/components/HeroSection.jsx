@@ -35,7 +35,7 @@ const HeroSection = () => {
       {/* desktop */}
       <div className="hero_section bg-white sm:flex hidden flex-row justify-between items-center relative z-20 w-full">
         <span className="absolute h-full 2xl:w-full xl:w-[366px] w-[274px] bg-black top-0 2xl:left-[57%] right-0  -z-10 bg-gradient-to-tr to-[#1B5442] from-[#002419]" />
-        <div className="sm:flex hidden flex-row justify-between items-center relative z-20 max-w-2xl mx-auto hero_section w-full">
+        <div className="sm:flex hidden flex-row justify-between items-center relative z-20 max-w-[1536px] mx-auto hero_section w-full">
           <div className="grid place-content-center place-items-center w-[40%] xl:pl-28 lg:pl-24 sm:pl-12">
             <MainImage
               src={modern_design_antic_tech}
