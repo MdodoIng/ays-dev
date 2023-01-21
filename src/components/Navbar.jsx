@@ -71,14 +71,21 @@ const Navbar = () => {
           isToggle ? "z-50 translate-x-0" : "-z-50 translate-x-[400%]"
         }  w-full h-full top-0 left-0 bg-primary fixed flex-col flex duration-500 ease-linear`}
       >
-        <span className="fixed -z-10 w-[100000%] h-full backdrop-blur-lg -left-[100%]"/>
+        <span className="fixed -z-10 w-[100000%] h-full backdrop-blur-lg -left-[100%]" />
         <div className="h-[108px] grid place-items-center w-full relative ">
-          <img src={logo} alt="logo" className="object-contain h-[38px] " width={100} height={100} loading='lazy' />
+          <img
+            src={logo}
+            alt="logo"
+            className="object-contain h-[38px] "
+            width={100}
+            height={100}
+            loading="lazy"
+          />
           <span className="h-1 w-full bg-gradient-to-r from-[#A37832] to-[#CEAB61]" />
         </div>
         <div className="px-12 grid gap-11 py-14">
           {navLinks.map((item) => (
-            <a href={item.link}>
+            <a href={item.link} onClick={() => setIsToggle(false)}>
               <p className="font-quasimodaRegular tracking-[2%] shrink-0 text-white text-[22px]">
                 {item.title}
               </p>
@@ -120,8 +127,11 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        <span  className="absolute bottom-14 w-full flex items-center justify-center  ">
-          <p onClick={() => setIsToggle(false)} className="inline-flex items-center justify-center gap-[9px] text-lg leading-[130%] tracking-[2%] text-white">
+        <span className="absolute bottom-14 w-full flex items-center justify-center  ">
+          <p
+            onClick={() => setIsToggle(false)}
+            className="inline-flex items-center justify-center gap-[9px] text-lg leading-[130%] tracking-[2%] text-white"
+          >
             <svg
               width="19"
               height="18"

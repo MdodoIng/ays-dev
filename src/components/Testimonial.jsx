@@ -28,7 +28,7 @@ const data = [
 const Testimonial = () => {
   return (
     <div className="xl:px-28 xl:py-20 lg:px-24 sm:px-12 lg:py-16 sm:py-10 py-7 bg-[#FFF7F1] flex items-center justify-center">
-      <div className="flex items-center sm:justify-center justify-between flex-col xl:max-w-[1099px]  sm:w-[90%] w-full">
+      <div className="flex items-center justify-center flex-col xl:max-w-[1099px]  sm:w-[90%] w-full">
         <h4 className="lg:mb-5 sm:mb-1  xl:text-[22px] lg:text-xl sm:text-xs text-lg leading-[136%] tracking-[-2%] text-[#463328]">
           what the say
         </h4>
@@ -43,7 +43,7 @@ const Testimonial = () => {
         >
           {data.map((item) => (
             <React.Fragment key={item.id}>
-              <SwiperSlide className="sm:flex sm:flex-row grid grid-rows-2 flex-col items-center justify-between sm:w-[50%] w-full bg-primary overflow-hidden">
+              <SwiperSlide className="sm:flex sm:flex-row grid grid-rows-2 flex-col sm:items-center items-start sm:justify-between justify-start sm:w-[50%] w-full bg-primary overflow-hidden">
                 <div className="flex items-center justify-start h-full shrink-0 relative sm:py-[5%] max-sm:pt-5 max-sm:h-[400px]">
                   <span className="sm:w-[70%] w-[1400px] bg-[#FFF7F1] sm:h-[1000px] h-[80%] absolute sm:left-0 -left-[70%] -z-10 max-sm:top-0" />
                   <img
