@@ -41,8 +41,8 @@ const Testimonial = () => {
           autoplay
           className="flex items-center justify-center w-full "
         >
-          {data.map((item) => (
-            <React.Fragment key={item.id}>
+          {data.map((item, idx) => (
+            <React.Fragment key={idx}>
               <SwiperSlide className="sm:flex sm:flex-row grid grid-rows-2 flex-col sm:items-center items-start sm:justify-between justify-start sm:w-[50%] w-full bg-primary overflow-hidden">
                 <div className="flex items-center justify-start h-full shrink-0 relative sm:py-[5%] max-sm:pt-5 max-sm:h-[400px]">
                   <span className="sm:w-[70%] w-[1400px] bg-[#FFF7F1] sm:h-[1000px] h-[80%] absolute sm:left-0 -left-[70%] -z-10 max-sm:top-0" />

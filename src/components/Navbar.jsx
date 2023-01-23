@@ -92,7 +92,7 @@ const Navbar = () => {
         </div>
         <div className="px-12 grid gap-11 py-14">
           {navLinks.map((item) => (
-            <a href={item.link} onClick={() => setIsToggle(false)}>
+            <a key={item.id} href={item.link} onClick={() => setIsToggle(false)}>
               <p className="font-quasimodaRegular tracking-[2%] shrink-0 text-white text-[22px]">
                 {item.title}
               </p>
