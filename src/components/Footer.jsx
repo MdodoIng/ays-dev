@@ -3,6 +3,7 @@ import React from "react";
 import logo from "../assets/images/ays_logo.webp";
 import {
   FBIcon,
+  InstagramIcon,
   LinkedInIcon,
   LocationIcon,
   MailIcon,
@@ -76,6 +77,7 @@ const Footer = () => {
               <FollowUs icon={<FBIcon />} link="https://www.facebook.com/profile.php?id=100064403393989" />
               <FollowUs icon={<TwitterIcon />} link="" />
               <FollowUs icon={<LinkedInIcon />} link="" />
+              <FollowUs icon={<InstagramIcon className=''/>} link="https://www.instagram.com/ays.jewels/" />
             </div>
           </div>
         </div>

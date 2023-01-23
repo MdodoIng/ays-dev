@@ -39,7 +39,7 @@ const Navbar = () => {
   );
   return (
     <>
-      <nav className="flex justify-between items-center w-full xl:h-[100px] lg:h-[100px] h-[103px] relative xl:px-28 lg:px-24 sm:px-12 px-7 max-w-[1536px] mx-auto after:content-[' '] after:absolute after:w-[1000000px] after:h-full after:top-0 after:-left-[500%] after:bg-primary after:-z-10 2xl:overflow-visible overflow-hidden">
+      <nav className="flex justify-between items-center w-full xl:h-[100px] lg:h-[100px] h-[80px] relative xl:px-28 lg:px-24 sm:px-12 px-7 max-w-[1536px] mx-auto after:content-[' '] after:absolute after:w-[1000000px] after:h-full after:top-0 after:-left-[500%] after:bg-primary after:-z-10 2xl:overflow-visible overflow-hidden">
         <div className="">
           <img
             src={logo}
@@ -47,7 +47,7 @@ const Navbar = () => {
             loading="lazy"
             width={100}
             height={100}
-            className="object-contain xl:h-[50px] lg:h-[50px] sm:h-[40px] h-[38px] sm:w-full"
+            className="object-contain xl:h-[50px] lg:h-[50px] sm:h-[40px] h-[34px] w-full"
           />
         </div>
         <div className="font-quasimodaRegular lg:flex hidden xl:gap-11 gap-7 items-center justify-center">
@@ -79,18 +79,18 @@ const Navbar = () => {
         }  w-full h-full top-0 left-0 bg-primary fixed flex-col flex duration-500 ease-linear`}
       >
         <span className="fixed -z-10 w-[100000%] h-full backdrop-blur-lg -left-[100%]" />
-        <div className="h-[108px] grid place-items-center w-full relative ">
+        <div className="h-[80px] grid place-items-center w-full relative ">
           <img
             src={logo}
             alt="logo"
-            className="object-contain h-[38px] "
+            className="object-contain h-[34px] w-full"
             width={100}
             height={100}
             loading="lazy"
           />
           <span className="h-1 w-full bg-gradient-to-r from-[#A37832] to-[#CEAB61]" />
         </div>
-        <div className="px-12 grid gap-11 py-14">
+        <div className="px-12 grid gap-8 py-14">
           {navLinks.map((item) => (
             <a key={item.id} href={item.link} onClick={() => setIsToggle(false)}>
               <p className="font-quasimodaRegular tracking-[2%] shrink-0 text-white text-[20px]">
@@ -104,7 +104,7 @@ const Navbar = () => {
           <Link
             target="_blank"
             className="cursor-pointer 
-           bg-[#13372C] w-[38px] h-[38px] flex items-center justify-center shrink-0 rounded-sm"
+           bg-[#13372C] w-[38px] h-[38px] flex items-center justify-center shrink-0 rounded-xl"
           >
             <img
               src={google}
@@ -117,7 +117,7 @@ const Navbar = () => {
             target="_blank"
             to="https://www.instagram.com/ays.jewels/"
             className="cursor-pointer 
-           bg-[#13372C] w-[38px] h-[38px] flex items-center justify-center shrink-0 rounded-sm"
+           bg-[#13372C] w-[38px] h-[38px] flex items-center justify-center shrink-0 rounded-xl"
           >
             <img
               src={instagram}
@@ -130,7 +130,7 @@ const Navbar = () => {
             target="_blank"
             to="https://www.facebook.com/profile.php?id=100064403393989"
             className="cursor-pointer 
-           bg-[#13372C] w-[38px] h-[38px] flex items-center justify-center shrink-0 rounded-sm "
+           bg-[#13372C] w-[38px] h-[38px] flex items-center justify-center shrink-0 rounded-xl "
           >
             <img
               src={fb}
@@ -139,7 +139,7 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        <span className="absolute bottom-14 w-full flex items-center justify-center  ">
+        <span className="absolute bottom-4 w-full flex items-center justify-center  ">
           <p
             onClick={() => setIsToggle(false)}
             className="inline-flex items-center justify-center gap-[9px] text-lg leading-[130%] tracking-[2%] text-white"
