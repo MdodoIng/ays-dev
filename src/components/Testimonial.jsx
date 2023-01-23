@@ -27,12 +27,12 @@ const data = [
 
 const Testimonial = () => {
   return (
-    <div className="xl:px-28 xl:py-20 lg:px-24 sm:px-12 lg:py-16 sm:py-10 py-7 bg-[#FFF7F1] flex items-center justify-center">
+    <div className="xl:px-28 xl:py-12 lg:px-24 sm:px-12 lg:py-10 sm:py-10 py-7 bg-[#FFF7F1] flex items-center justify-center">
       <div className="flex items-center justify-center flex-col xl:max-w-[1099px]  sm:w-[90%] w-full">
-        <h4 className="lg:mb-5 sm:mb-1  xl:text-[22px] lg:text-xl sm:text-xs text-lg leading-[136%] tracking-[-2%] text-[#463328]">
+        <h4 className="lg:mb-2 sm:mb-1  xl:text-[20px] lg:text-xl sm:text-xs text-lg leading-[136%] tracking-[-2%] text-[#463328]">
           what the say
         </h4>
-        <h1 className="xl:mb-20 lg:mb-16 mb-7 font-luxiaDisplay xl:text-[90px] lg:text-7xl sm:text-3xl text-3xl leading-9 text-black max-sm:px-7">
+        <h1 className="xl:mb-12 lg:mb-10 mb-7 font-luxiaDisplay xl:text-[48px] lg:text-4xl sm:text-3xl text-3xl leading-9 text-black max-sm:px-7">
           Testimonials
         </h1>
         <Swiper

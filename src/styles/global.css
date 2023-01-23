@@ -27,7 +27,7 @@ h3 {
 }
 
 .hero_section {
-  height: calc(100vh - 165px);
+  height: calc(100vh - 100px);
 }
 @media (min-width: 1024px) {
   @media (min-height: 1117px) {
@@ -43,7 +43,7 @@ h3 {
   }
   @media (max-height: 1024px) {
     .hero_section {
-      height: calc(100vh - 106px);
+      height: calc(100vh - 100px);
     }
   }
 }

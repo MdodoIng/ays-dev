@@ -34,7 +34,7 @@ const OurLegacy = () => {
             alt="35years"
             width={307}
             height={282}
-            className="object-contain lg:max-w-[307px] max-w-[130px] w-full h-full shrink-0 sm:block hidden" 
+            className="object-contain lg:max-w-[257px] max-w-[130px] w-full h-full shrink-0 sm:block hidden" 
           />
           <MainImage
             src={yearsOf35mob}
@@ -46,10 +46,10 @@ const OurLegacy = () => {
           />
         </div>
         <div className="w-full max-sm:mt-12">
-          <h1 className="font-luxiaDisplay xl:text-7xl lg:text-6xl text-3xl text-white sm:leading-[167%] leading-[175%] sm:tracking-[-2%] tracking-[-0.5%]">
+          <h1 className="font-luxiaDisplay xl:text-5xl lg:text-4xl text-3xl text-white sm:leading-[167%] leading-[175%] sm:tracking-[-2%] tracking-[-0.5%]">
             Our Legacy
           </h1>
-          <p className="xl:text-[22px] lg:text-xl sm:text-xs text-lg text-white leading-[162%] tracking-[-2%] lg:mt-4">
+          <p className="xl:text-[20px] lg:text-lg sm:text-xs text-lg text-white leading-[162%] tracking-[-2%] lg:mt-4">
             Ayisha Jewelry, a trusted manufacturer and wholesaler with over 35
             years of experience, is proud to introduce AYS JEWELS, our new
             retail entity. Our signature collections in antique jewelry is

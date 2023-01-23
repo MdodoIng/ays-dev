@@ -8,8 +8,8 @@ import start from "../assets/icons/one start.svg";
 const PromiseYourPurity = () => {
   const Quality = ({ title }) => (
     <div className="flex items-center gap-[10px] ">
-      <img src={start} alt='start' className="xl:w-[50px] xl:h-[47px] lg:w-[40px] sm:w-[24px] w-[30px] object-contain" loading="lazy" width={100} height={100}/>
-      <p className="xl:text-[30px] lg:text-2xl sm:text-sm text-xl leading-[162%] tracking-[-2%] font-quasimodaRegular text-primary ">
+      <img src={start} alt='start' className="xl:w-[40px] xl:h-[37px] lg:w-[35px] sm:w-[24px] w-[30px] object-contain" loading="lazy" width={100} height={100}/>
+      <p className="xl:text-[22px] lg:text-xl sm:text-sm text-xl leading-[162%] tracking-[-2%] font-quasimodaRegular text-primary ">
         {title}
       </p>
     </div>
@@ -24,9 +24,9 @@ const PromiseYourPurity = () => {
           alt="promiseOfPurityHeading"
           width={417}
           height={157.84}
-          className="object-contain xl:max-w-[417px] lg:max-w-[300px] sm:max-w-[183px] w-full h-full sm:block hidden"
+          className="object-contain xl:max-w-[317px] lg:max-w-[300px] sm:max-w-[183px] w-full h-full sm:block hidden"
         />
-        <h2 className="xl:mb-[30px] xl:mt-[37px] lg:mb-6 sm:mb-3 mb-4 mt-6 font-luxiaDisplay lg:text-[50px] sm:text-[22px] text-3xl text-primary">
+        <h2 className="xl:mb-[20px] xl:mt-[37px] lg:mb-4 sm:mb-3 mb-4 mt-6 font-luxiaDisplay lg:text-[38px] sm:text-[20px] text-3xl text-primary">
           We Assure
         </h2>
         <Quality title="Affordable making charge" />

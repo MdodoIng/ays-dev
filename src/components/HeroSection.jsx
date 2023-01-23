@@ -41,9 +41,9 @@ const HeroSection = () => {
               src={modern_design_antic_tech}
               alt="modern_design_antic_tech"
               loading="lazy"
-              className="object-contain xl:max-w-[550px] lg:max-w-[361px] max-w-[252.7px] w-full h-full"
+              className="object-contain xl:max-w-[350px] lg:max-w-[321px] max-w-[252.7px] w-full h-full"
             />
-            <p className="text-center xl:text-[22px] lg:text-lg text-xs leading-[130%] tracking-[-4%] text-black xl:mt-2 lg:mt-[5px] mt-[3px]">
+            <p className="text-center xl:text-[20px] lg:text-lg text-xs leading-[130%] tracking-[-4%] text-black xl:mt-2 lg:mt-[5px] mt-[3px]">
               A wide range of jewelry that can elevate every occasion to
               grandeur, which is the embodiment of purity and elegance. Not only
               your jewelry will speak to your beauty, but it will be mirrored in
@@ -131,7 +131,7 @@ const HeroSection = () => {
               className="object-contain max-w-[256px] w-full h-full"
             />
           </div>
-          <p className="text-[22px] text-center leading-[130%] tracking-[-4%] text-black mt-[5px]">
+          <p className="text-[20px] text-center leading-[130%] tracking-[-4%] text-black mt-[5px]">
             A wide range of jewelry that can elevate every occasion to grandeur,
             which is the embodiment of purity and elegance. Not only your
             jewelry will speak to your beauty, but it will be mirrored in the

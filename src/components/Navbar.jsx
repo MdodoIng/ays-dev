@@ -32,14 +32,14 @@ const Navbar = () => {
 
   const NavLink = ({ link, text }) => (
     <a href={link}>
-      <p className="font-quasimodaRegular tracking-[2%] text-white xl:text-2xl text-base">
+      <p className="font-quasimodaRegular tracking-[2%] text-white xl:text-[20px] text-base">
         {text}
       </p>
     </a>
   );
   return (
     <>
-      <nav className="flex justify-between items-center w-full xl:h-[165px] lg:h-[106px] h-[103px] relative xl:px-28 lg:px-24 sm:px-12 px-7 max-w-[1536px] mx-auto after:content-[' '] after:absolute after:w-[1000000px] after:h-full after:top-0 after:-left-[500%] after:bg-primary after:-z-10 2xl:overflow-visible overflow-hidden">
+      <nav className="flex justify-between items-center w-full xl:h-[100px] lg:h-[100px] h-[103px] relative xl:px-28 lg:px-24 sm:px-12 px-7 max-w-[1536px] mx-auto after:content-[' '] after:absolute after:w-[1000000px] after:h-full after:top-0 after:-left-[500%] after:bg-primary after:-z-10 2xl:overflow-visible overflow-hidden">
         <div className="">
           <img
             src={logo}
@@ -47,12 +47,12 @@ const Navbar = () => {
             loading="lazy"
             width={100}
             height={100}
-            className="object-contain xl:h-[76px] lg:h-[50px] sm:h-[40px] h-[38px] sm:w-full"
+            className="object-contain xl:h-[50px] lg:h-[50px] sm:h-[40px] h-[38px] sm:w-full"
           />
         </div>
         <div className="font-quasimodaRegular lg:flex hidden xl:gap-11 gap-7 items-center justify-center">
           <a href="#about-us">
-            <p className="font-quasimodaRegular tracking-[2%] text-white xl:text-2xl text-base"></p>
+            <p className="font-quasimodaRegular tracking-[2%] text-white xl:text-[20px] text-base"></p>
           </a>
           <NavLink link="#about-us" text="About&nbsp;Us" />
           <NavLink link="#purchasePlans" text="Purchase&nbsp;Plans" />
@@ -93,7 +93,7 @@ const Navbar = () => {
         <div className="px-12 grid gap-11 py-14">
           {navLinks.map((item) => (
             <a key={item.id} href={item.link} onClick={() => setIsToggle(false)}>
-              <p className="font-quasimodaRegular tracking-[2%] shrink-0 text-white text-[22px]">
+              <p className="font-quasimodaRegular tracking-[2%] shrink-0 text-white text-[20px]">
                 {item.title}
               </p>
             </a>

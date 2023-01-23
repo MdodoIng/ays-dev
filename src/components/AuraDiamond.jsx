@@ -26,7 +26,7 @@ const AuraDiamond = () => {
             alt="35years"
             width={656}
             height={593}
-            className="object-contain w-full h-full xl:max-w-[656px] xl:max-h-[593px] max-w-[500px] max-h-[400px] "
+            className="object-contain w-full h-full xl:max-w-[450px] xl:max-h-[593px] max-w-[420px] max-h-[400px] "
           />
         </div>
         <div className="sm:w-[50%] lg:pl-20 sm:pl-10 max-sm:mt-3">
@@ -36,7 +36,7 @@ const AuraDiamond = () => {
             alt="35years"
             width={295.48}
             height={169.05}
-            className="object-contain w-full h-full xl:max-w-[295.48px] lg:max-w-[200px] max-w-[150px] max-h-[169.05px] sm:block hidden"
+            className="object-contain w-full h-full xl:max-w-[225.48px] lg:max-w-[200px] max-w-[150px] max-h-[169.05px] sm:block hidden"
           />
           <div className="sm:hidden flex w-full items-center justify-center">
             <MainImage
@@ -48,7 +48,7 @@ const AuraDiamond = () => {
               className="object-contain w-full h-full max-h-[80px]"
             />
           </div>
-          <p className="xl:text-[22px] lg:text-xl sm:text-xs text-lg leading-[162%] tracking-[-2%] text-black lg:mt-6 mt-4">
+          <p className="xl:text-[20px] lg:text-lg  sm:text-xs text-lg leading-[162%] tracking-[-2%] text-black lg:mt-6 mt-4">
             Unleash your regal radiance and make a statement at your upcoming
             celebrations by adorning yourself with the mesmerizing sparkle of
             AYS JEWEL'S Aura Diamond Collection. These diamonds will elevate
