@@ -50,11 +50,11 @@ const Footer = () => {
               store, get styled and join the Fine Crew.
             </p>
           </div>
-          <div className="grid xl:gap-12 lg:gap-10 sm:gap-6 gap-6">
+          <div className="grid xl:gap-12 lg:gap-10 sm:gap-6 gap-4">
             <h2 className="font-quasimodaLight text-white xl:text-3xl lg:text-2xl sm:text-sm text-[20px] font-light">
               Contact us
             </h2>
-            <div className="grid place-items-start xl:gap-5 lg:gap-4 sm:gap-3 gap-7">
+            <div className="grid place-items-start xl:gap-5 lg:gap-4 sm:gap-3 gap-5">
               <ContactUs
                 title="Kondotty, Malappuram, Kerala."
                 icon={<LocationIcon className="" />}
@@ -69,7 +69,7 @@ const Footer = () => {
               />
             </div>
           </div>
-          <div className="grid xl:gap-12 lg:gap-10 sm:gap-6 gap-6">
+          <div className="grid xl:gap-12 lg:gap-10 sm:gap-6 gap-4">
             <h2 className="font-quasimodaLight text-white xl:text-3xl lg:text-2xl sm:text-sm text-[20px] font-light">
               Follow us on
             </h2>
