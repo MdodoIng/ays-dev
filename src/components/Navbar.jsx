@@ -1,4 +1,4 @@
-import { Link } from "gatsby";
+import { Link, navigate } from "gatsby";
 import React, { useState } from "react";
 import logo from "../assets/images/ays_logo.webp";
 import fb from "../assets/icons/Facebook Fill.svg";
@@ -79,7 +79,10 @@ const Navbar = () => {
         }  w-full h-full top-0 left-0 bg-primary fixed flex-col flex duration-500 ease-linear`}
       >
         <span className="fixed -z-10 w-[100000%] h-full backdrop-blur-lg -left-[100%]" />
-        <div className="h-[80px] grid place-items-center w-full relative ">
+        <div onClick={() => {
+          setIsToggle(false)
+          navigate('/')
+        }} className="h-[80px] grid place-items-center w-full relative ">
           <img
             src={logo}
             alt="logo"
@@ -101,7 +104,7 @@ const Navbar = () => {
         </div>
 
         <div className="px-12 flex-wrap flex items-center gap-5 ">
-          <Link
+          <Link to="https://www.google.co.in/maps/place/Ays+jewells/@11.1495906,75.9617443,15z/data=!4m5!3m4!1s0x0:0x15a7d3e0ad7a5c73!8m2!3d11.1495906!4d75.9617443"
             target="_blank"
             className="cursor-pointer 
            bg-[#13372C] w-[38px] h-[38px] flex items-center justify-center shrink-0 rounded-xl"
