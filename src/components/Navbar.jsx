@@ -40,14 +40,14 @@ const Navbar = () => {
   return (
     <>
       <nav className="flex justify-between items-center w-full xl:h-[100px] lg:h-[100px] h-[80px] relative xl:px-28 lg:px-24 sm:px-12 px-7 max-w-[1536px] mx-auto after:content-[' '] after:absolute after:w-[1000000px] after:h-full after:top-0 after:-left-[500%] after:bg-primary after:-z-10 2xl:overflow-visible overflow-hidden">
-        <div className="">
+        <div className="xl:max-w-[367.8px] lg:max-w-[219px] sm:max-w-[200.2px] max-w-[182px]">
           <img
             src={logo}
             alt="logo"
             loading="lazy"
             width={100}
             height={100}
-            className="object-contain xl:h-[50px] lg:h-[50px] sm:h-[40px] h-[34px] w-full"
+            className="object-contain xl:h-[50px] lg:h-[50px] sm:h-[40px] h-[34px] w-full "
           />
         </div>
         <div className="font-quasimodaRegular lg:flex hidden xl:gap-11 gap-7 items-center justify-center">
