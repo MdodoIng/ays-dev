@@ -1,6 +1,6 @@
 import { MainImage } from "gatsby-plugin-image";
 import React from "react";
-import modern_design_antic_tech from "../assets/images/element/modern design antic tech.svg";
+import modern_design_antic_tech from "../assets/images/element/modern design antic tech.webp";
 import EnquireBtn from "../ui/EnquireBtn";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -39,6 +39,7 @@ const HeroSection = () => {
           <div className="grid place-content-center place-items-center w-[40%] xl:pl-28 lg:pl-24 sm:pl-12">
             <MainImage
               src={modern_design_antic_tech}
+              // width={550} height={176.68}
               alt="modern_design_antic_tech"
               loading="lazy"
               className="object-contain xl:max-w-[350px] lg:max-w-[321px] max-w-[252.7px] w-full h-full"
