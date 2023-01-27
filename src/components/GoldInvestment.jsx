@@ -29,7 +29,7 @@ const GoldInvestment = () => {
       title: "Golden Muhurt",
       subtitle: "Old gold exchange scheme",
       detail:
-        "Wedding Advance Plan is the ideal plan for wedding purchases. You can book jewelry by paying a percentage upfront, protecting against possible gold price increases. jewelry can be purchased at the lower price on the day of booking or purchase. This plan does not allow you to buy gold coins.",
+        "Wedding Advance Plan is the ideal plan for wedding purchases. You can book jewelry by paying a percentage upfront, protecting against possible gold price increases. Jewelry can be purchased at the lower price on the day of booking or purchase. This plan does not allow you to buy gold coins.",
       icon: money_in_hand,
     },
   ];

@@ -56,15 +56,15 @@ const Footer = () => {
             </h2>
             <div className="grid place-items-start xl:gap-5 lg:gap-4 sm:gap-3 gap-5">
               <ContactUs
-                title="Kondotty, Malappuram, Kerala."
+                title="Block Road, Kondotty, Kerala."
                 icon={<LocationIcon className="" />}
               />
               <ContactUs
-                title="+91 9836000916"
+                title="+91 8943300916"
                 icon={<PhoneIcon className="" />}
               />
               <ContactUs
-                title="shaharoz@aysjewels.in"
+                title="info@aysjewels.in"
                 icon={<MailIcon className="" />}
               />
             </div>
