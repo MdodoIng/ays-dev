@@ -17,10 +17,7 @@ module.exports = {
       display: `standalone`,
       start_url: `/`,
       background_color: `#06231A`,
-      theme_color: `#fff`,
-      icon_options: {
-        purpose: `any maskable`,
-      },
+      theme_color: `#fff`
     }
   }, "gatsby-plugin-sharp", "gatsby-transformer-sharp",'gatsby-plugin-offline' , {
     resolve: `gatsby-source-filesystem`,
