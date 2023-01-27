@@ -11,7 +11,7 @@ module.exports = {
     options: {
       "icon": "src/assets/images/icon.png"
     }
-  }, "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+  }, "gatsby-plugin-sharp", "gatsby-transformer-sharp",'gatsby-plugin-offline' , {
     resolve: `gatsby-source-filesystem`,
     options: {
       name: `images`,
