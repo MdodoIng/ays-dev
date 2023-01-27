@@ -39,9 +39,9 @@ const HeroSection = () => {
           <div className="grid place-content-center place-items-center w-[40%] xl:pl-28 lg:pl-24 sm:pl-12">
             <MainImage
               src={modern_design_antic_tech}
-              width={550} height={176.68}
               alt="modern_design_antic_tech"
-              loading="eager"
+              loading="lazy"
+              width={550} height={176.68}
               className="object-contain xl:max-w-[350px] lg:max-w-[321px] max-w-[252.7px] w-full h-full"
             />
             <p className="text-center xl:text-[20px] lg:text-lg text-xs leading-[130%] tracking-[-4%] text-black xl:mt-2 lg:mt-[5px] mt-[3px]">
