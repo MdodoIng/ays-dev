@@ -74,7 +74,7 @@ const HeroSection = () => {
             </Swiper>
           </div>
           <div className="xl:w-14 lg:w-12 w-9 xl:h-44 lg:h-36 h-28 bg-primary rounded-tl-lg rounded-bl-lg flex items-center justify-between lg:px-4 lg:py-8 py-5 px-3 flex-col lg:gap-6  gap-[14px]">
-            <Link target="_blank" className="cursor-pointer">
+            <Link target="_blank" to="https://www.google.co.in/maps/place/Ays+jewells/@11.1495906,75.9617443,15z/data=!4m5!3m4!1s0x0:0x15a7d3e0ad7a5c73!8m2!3d11.1495906!4d75.9617443" className="cursor-pointer">
               <img
                 src={google}
                 alt="google"
