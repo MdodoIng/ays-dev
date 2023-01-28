@@ -31,10 +31,10 @@ export default IndexPage;
 
 export const Head = () => (
   <React.Fragment>
-    <title>AYS JEWELS</title>
+    <title>AYS Jewels | Premium Antique Galleria | Kondotty</title>
     <meta
       name="description"
-      content="A wide range of jewelry that can elevate every occasion to grandeur, which is the embodiment of purity and elegance. Not only your jewelry will speak to your beauty, but it will be mirrored in the radiance of your eyes."
+      content="Discover the beauty and elegance of antique jewellery at AYS Jewels Kondotty, a premium shop where you can find unique and timeless pieces to add to your collection."
     />
     <meta name="theme-color" content="#06231A" />
     <meta name="msapplication-TileColor" content="#06231A" />

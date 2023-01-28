@@ -10,9 +10,9 @@ module.exports = {
     resolve: 'gatsby-plugin-manifest',
     options: {
       icon: "src/assets/images/icon.png",
-      name: `AYS JEWELS`,
-      short_name: `AYS JEWELS`,
-      description: `A wide range of jewelry that can elevate every occasion to grandeur, which is the embodiment of purity and elegance. Not only your jewelry will speak to your beauty, but it will be mirrored in the radiance of your eyes.`,
+      name: `AYS Jewels | Premium Antique Galleria | Kondotty`,
+      short_name: `AYS Jewels | Premium Antique Galleria | Kondotty`,
+      description: `Discover the beauty and elegance of antique jewellery at AYS Jewels Kondotty, a premium shop where you can find unique and timeless pieces to add to your collection.`,
       lang: `en`,
       display: `standalone`,
       start_url: `/`,

@@ -20,7 +20,7 @@ const Footer = () => {
       <p className="text-white lg:text-[20px] sm:text-xs text-lg xl:leading-[170%] leading-7">{title}</p>
     </div>
   );
-
+ 
   const FollowUs = ({ link, icon }) => (
     <div className="flex items-start justify-center gap-4">
       <Link to={link} target="_blank">
