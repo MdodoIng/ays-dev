@@ -12,14 +12,14 @@ const data = [
   {
     id: 1,
     text: "I recently visited Ays Jewels and was thoroughly impressed with the level of service and quality provided. Upon entering the store, I was greeted by a warm and professional staff who made me feel welcomed and valued. The jewelry pieces on display were both stylish and unique, and the quality and affordability of the pieces I purchased exceeded my expectations. Overall, I highly recommend Ays Jewels to anyone seeking premium jewelry options.",
-    name: "Esther Howard",
+    name: "Arya ajith",
     position: "Co-Founder",
     picture: user1,
   },
   {
     id: 2,
     text: "Ays Jewels exceeded my expectations. The store has a warm and inviting atmosphere, making the shopping experience enjoyable and stress-free. I appreciated the staff's commitment to customer satisfaction and their attention to detail. The moment I walked in. I was impressed by the unique and stylish display of jewelry pieces, and even more amazed by the quality and affordability of the pieces I purchased. I highly recommend Ays Jewels to anyone looking for stunning jewelry at affordable prices. Thank you for such a wonderful experience.",
-    name: "Esther Howard",
+    name: "Sara Joseph",
     position: "Co-Founder",
     picture: user2,
   },
