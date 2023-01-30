@@ -34,7 +34,7 @@ export const Head = () => (
     <title>AYS Jewels | Premium Antique Galleria | Kondotty</title>
     <meta
       name="description"
-      content="Discover the beauty and elegance of antique jewellery at AYS Jewels Kondotty, a premium shop where you can find unique and timeless pieces to add to your collection."
+      content="Discover the beauty and elegance of antique jewelry at AYS Jewels Kondotty, a premium shop where you can find unique and timeless pieces to add to your collection."
     />
     <meta name="start_url" content="/" />
     <meta name="theme-color" content="#06231A" />

@@ -12,7 +12,7 @@ module.exports = {
       icon: "src/assets/images/icon.png",
       name: `AYS Jewels | Premium Antique Galleria | Kondotty`,
       short_name: `AYS Jewels | Premium Antique Galleria | Kondotty`,
-      description: `Discover the beauty and elegance of antique jewellery at AYS Jewels Kondotty, a premium shop where you can find unique and timeless pieces to add to your collection.`,
+      description: `Discover the beauty and elegance of antique jewelry at AYS Jewels Kondotty, a premium shop where you can find unique and timeless pieces to add to your collection.`,
       lang: `en`,
       display: `standalone`,
       start_url: `/`,
