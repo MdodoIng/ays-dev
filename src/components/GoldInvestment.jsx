@@ -21,7 +21,7 @@ const GoldInvestment = () => {
       title: "Swarnna Sambadhya",
       subtitle: "5 lakh rupees investment plan",
       detail:
-        "Maximize the value of your unused jewelry by partaking in AYS Gold Savings. With a minimum investment of 10 sovereign or more, you shall be rewarded with reasonable returns and a bonus dividend commensurate with the worth of your investment. At the end of the term, you may choose to receive a piece of brand new jewelry from AYS Gold's exquisite collection, of equal weight to your investment.",
+        "Maximize the value of your unused jewelry by partaking in AYS Gold Savings. With a minimum investment of 10 sovereign or more, you shall be rewarded with reasonable returns and a bonus dividend commensurate with the worth of your investment. At the end of the term, you may choose to receive a piece of brand new jewelry from AYS Gold’s exquisite collection, of equal weight to your investment.",
       icon: money_pig,
     },
     {
@@ -29,7 +29,7 @@ const GoldInvestment = () => {
       title: "Golden Muhurt",
       subtitle: "Old gold exchange scheme",
       detail:
-        "Maximize the value of your unused jewelry by investing in AYS Sambadhya Gold Investment Scheme. Receive a bonus on investments of 10 sovereign or more and choose from a new collection of gold jewelry of the same weight upon maturity. Dividends begin compounding in the fourth month.",
+        "The Wedding Advance Plan is the optimal choice for wedding purchases. You can secure your jewelry from gold price fluctuations by paying a percentage at booking. The jewelery can be owned whichever is lower on the day of booking or on the day of purchase. The commission shall be calculated based on the prevailing gold prices. This plan does not allow for the purchase of gold coins.",
       icon: money_in_hand,
     },
   ];
@@ -77,9 +77,9 @@ const GoldInvestment = () => {
               <h1 className="font-luxiaRegular lg:leading-[120%] leading-[120%] xl:text-[240%] lg:text-4xl sm:text-2xl text-3xl tracking-normal shrink-0">
                 {item.title}
               </h1>
-              <h2 className="font-quasimodaRegular xl:text-[120%] lg:text-xl sm:text-sm text-lg tracking-[12%] leading-[120%] text-[#FFCE07] uppercase">
+              {/* <h2 className="font-quasimodaRegular xl:text-[120%] lg:text-xl sm:text-sm text-lg tracking-[12%] leading-[120%] text-[#FFCE07] uppercase">
                 {item.subtitle}
-              </h2>
+              </h2> */}
               <p className="font-quasimodaRegular xl:text-[100%] lg:text-lg sm:text-[10px] text-sm leading-[162%] tracking-[-2%] lg:mt-[8px]  mt-[6px]">
                 {item.detail}
               </p>
