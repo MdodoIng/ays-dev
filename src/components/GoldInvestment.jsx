@@ -21,7 +21,7 @@ const GoldInvestment = () => {
       title: "Swarnna Sambadhya",
       subtitle: "5 lakh rupees investment plan",
       detail:
-        "Wedding Advance Plan is the ideal plan for wedding purchases. You can book jewelry by paying a percentage upfront, protecting against possible gold price increases. Jewelry can be purchased at the lower price on the day of booking or purchase. This plan does not allow you to buy gold coins.",
+        "Maximize the value of your unused jewelry by partaking in AYS Gold Savings. With a minimum investment of 10 sovereign or more, you shall be rewarded with reasonable returns and a bonus dividend commensurate with the worth of your investment. At the end of the term, you may choose to receive a piece of brand new jewelry from AYS Gold's exquisite collection, of equal weight to your investment.",
       icon: money_pig,
     },
     {
