@@ -10,7 +10,7 @@ const GoldInvestment = () => {
   const data = [
     {
       id: 1,
-      title: "Suvarna Suraksha",
+      title: "Suvarnna Suraksha",
       subtitle: "5 lakh rupees investment plan",
       detail:
         "A flexible way to purchase gold by paying monthly installments starting from Rs.1000. Lock in the value of your gold without worrying about fluctuating prices. Upon plan expiration, buy gold jewelry of the same weight at current market price without additional making charge.",
