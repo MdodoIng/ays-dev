@@ -11,7 +11,7 @@ const GoldInvestment = () => {
     {
       id: 1,
       title: "Suvarnna Suraksha",
-      subtitle: "5 lakh rupees investment plan",
+      subtitle: "11 month investment plan",
       detail:
         "A flexible way to purchase gold by paying monthly installments starting from Rs.1000. Lock in the value of your gold without worrying about fluctuating prices. Upon plan expiration, buy gold jewelry of the same weight at current market price without additional making charge.",
       icon: money_timer,
@@ -19,9 +19,9 @@ const GoldInvestment = () => {
     {
       id: 2,
       title: "Swarnna Sambadhya",
-      subtitle: "11 month investment plan",
+      subtitle: "5 lakh rupees investment plan",
       detail:
-        "Maximize the value of your unused jewelry by investing in AYS Sambadhya Gold Investment Scheme. Receive a bonus on investments of 10 sovereign or more and choose from a new collection of gold jewelry of the same weight upon maturity. Dividends begin compounding in the fourth month.",
+        "Wedding Advance Plan is the ideal plan for wedding purchases. You can book jewelry by paying a percentage upfront, protecting against possible gold price increases. Jewelry can be purchased at the lower price on the day of booking or purchase. This plan does not allow you to buy gold coins.",
       icon: money_pig,
     },
     {
@@ -29,7 +29,7 @@ const GoldInvestment = () => {
       title: "Golden Muhurt",
       subtitle: "Old gold exchange scheme",
       detail:
-        "Wedding Advance Plan is the ideal plan for wedding purchases. You can book jewelry by paying a percentage upfront, protecting against possible gold price increases. Jewelry can be purchased at the lower price on the day of booking or purchase. This plan does not allow you to buy gold coins.",
+        "Maximize the value of your unused jewelry by investing in AYS Sambadhya Gold Investment Scheme. Receive a bonus on investments of 10 sovereign or more and choose from a new collection of gold jewellery of the same weight upon maturity. Dividends begin compounding in the fourth month.",
       icon: money_in_hand,
     },
   ];
