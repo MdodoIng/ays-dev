@@ -29,7 +29,7 @@ const GoldInvestment = () => {
       title: "Golden Muhurt",
       subtitle: "Old gold exchange scheme",
       detail:
-        "Maximize the value of your unused jewelry by investing in AYS Sambadhya Gold Investment Scheme. Receive a bonus on investments of 10 sovereign or more and choose from a new collection of gold jewellery of the same weight upon maturity. Dividends begin compounding in the fourth month.",
+        "Maximize the value of your unused jewelry by investing in AYS Sambadhya Gold Investment Scheme. Receive a bonus on investments of 10 sovereign or more and choose from a new collection of gold jewelry of the same weight upon maturity. Dividends begin compounding in the fourth month.",
       icon: money_in_hand,
     },
   ];
