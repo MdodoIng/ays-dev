@@ -87,6 +87,7 @@ const GoldInvestment = () => {
           ))}
         </div>
       </div>
+      <p className="font-quasimodaRegular text-[#FFCE07] text-[100%] tracking-[-2%] leading-[162%] w-full text-right -mb-7 mt-5">*T&C Apply</p>
     </div>
   );
 };
