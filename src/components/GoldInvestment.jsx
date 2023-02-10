@@ -36,7 +36,7 @@ const GoldInvestment = () => {
   return (
     <div
       id="purchasePlans"
-      className="flex flex-col w-full items-center justify-center h-full bg-gradient-to-tr from-[#1B5442] to-[#01261A] xl:pt-24 lg:pt-20 sm:pt-12 pt-8 xl:pb-36 lg:pb-28 sm:pb-16 pb-16 xl:px-28 lg:px-24 sm:px-12 px-7 relative z-30"
+      className="flex flex-col w-full items-center justify-center h-full bg-gradient-to-tr from-[#1B5442] to-[#01261A] xl:pt-24 lg:pt-20 sm:pt-12 pt-8 xl:pb-24 lg:pb-20 sm:pb-16 pb-16 xl:px-28 lg:px-24 sm:px-12 px-7 relative z-30"
     >
       <MainImage
         src={yearsOf35Pattern}
@@ -77,9 +77,7 @@ const GoldInvestment = () => {
               <h1 className="font-luxiaRegular lg:leading-[120%] leading-[120%] xl:text-[240%] lg:text-4xl sm:text-2xl text-3xl tracking-normal shrink-0">
                 {item.title}
               </h1>
-              {/* <h2 className="font-quasimodaRegular xl:text-[120%] lg:text-xl sm:text-sm text-lg tracking-[12%] leading-[120%] text-[#FFCE07] uppercase">
-                {item.subtitle}
-              </h2> */}
+
               <p className="font-quasimodaRegular xl:text-[100%] lg:text-lg sm:text-[10px] text-sm leading-[162%] tracking-[-2%] lg:mt-[8px]  mt-[6px]">
                 {item.detail}
               </p>
@@ -87,7 +85,7 @@ const GoldInvestment = () => {
           ))}
         </div>
       </div>
-      <p className="font-quasimodaRegular text-[#FFCE07] text-[100%] tracking-[-2%] leading-[162%] w-full text-right -mb-7 mt-5">*T&C Apply</p>
+      <p className="font-quasimodaRegular text-[#FFCE07] text text-[100%] tracking-[-2%] leading-[162%] w-full text-right -mb-7 mt-5 absolute right-10 bottom-14">*T&C Apply</p>
     </div>
   );
 };
